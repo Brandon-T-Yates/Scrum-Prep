@@ -1,9 +1,9 @@
 /**
- * PSPO I Practice Exam
+ * Shared Scrum certification practice engine.
  *
- * Run this site through a local web server (not file://) so fetch() can load
- * data/questions.json. Options: VS Code/Cursor Live Server, or:
- *   python -m http.server
+ * Each practice page provides its question source and stats key through data
+ * attributes on <body>. Run through a local web server so fetch() can load the
+ * configured JSON question bank.
  */
 
 // Configuration
@@ -12,7 +12,9 @@ const CONFIG = {
   examDurationSeconds: 3600,
   passingScore: 85,
   themeStorageKey: "pspo-theme",
-  practiceStatsKey: "pspo-practice-stats",
+  practiceStatsKey: document.body.dataset.practiceStatsKey || "pspo-practice-stats",
+  questionSource: document.body.dataset.questionSource || "./data/questions.json",
+  certificationName: document.body.dataset.certificationName || "Scrum certification",
   letters: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   mobileNavigatorMaxWidth: 560,
 };
@@ -448,7 +450,7 @@ function saveCompletedAttempt(summary) {
 // Data Loading
 async function loadQuestionBank() {
   try {
-    const response = await fetch("./data/questions.json");
+    const response = await fetch(CONFIG.questionSource);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
@@ -467,7 +469,7 @@ async function loadQuestionBank() {
     state.isLoaded = false;
     setButtonsDisabled(true);
     dom.loadError.textContent =
-      "Unable to load the question bank. If you're opening this project directly from your computer, run it through a local web server.";
+      `Unable to load the ${CONFIG.certificationName} question bank. If you're opening this project directly from your computer, run it through a local web server.`;
     dom.loadError.classList.remove("hidden");
   }
 }

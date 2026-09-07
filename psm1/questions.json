@@ -1,0 +1,2116 @@
+[
+  {
+    "id": 1,
+    "prompt": "What is Sprint Retrospective mainly for?",
+    "options": [
+      "Planning ways to improve quality and effectiveness.",
+      "Prioritizing the Product Backlog.",
+      "Approving the Increment.",
+      "Reporting status to stakeholders."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Retrospective is used to inspect how the Scrum Team worked and plan improvements.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 1,
+    "edited": true
+  },
+  {
+    "id": 2,
+    "prompt": "Several Done Increments are created during one Sprint. Is that allowed?",
+    "options": [
+      "No. Scrum allows exactly one Increment per Sprint.",
+      "Yes. Multiple Increments may be created, and they add to prior Increments.",
+      "Only if the Sprint is one month long.",
+      "Only when stakeholders approve each one."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum allows multiple Increments during a Sprint. Each Done Increment builds on previous Increments and must remain usable.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 2,
+    "edited": true
+  },
+  {
+    "id": 3,
+    "prompt": "Which Scrum value is most directly supported when people speak up about a problem that could threaten the Sprint Goal?",
+    "options": [
+      "Focus",
+      "Courage",
+      "Respect",
+      "Commitment"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "It takes courage to raise difficult issues openly so the team can deal with reality rather than hide it.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 3,
+    "edited": true
+  },
+  {
+    "id": 4,
+    "prompt": "A manager asks for individual Daily Scrum status reports. What is the best response?",
+    "options": [
+      "Explain that the Daily Scrum is for Developers to inspect progress toward the Sprint Goal, not a management status meeting.",
+      "Agree, because Scrum requires individual status reporting.",
+      "Have the Product Owner collect the reports instead.",
+      "Cancel Daily Scrum and email the reports."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum exists to help Developers inspect and adapt their plan, not to report upward.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 4,
+    "edited": true
+  },
+  {
+    "id": 5,
+    "prompt": "A team hides unfinished testing so Sprint Review looks successful. Which pillar of empiricism is most directly damaged?",
+    "options": [
+      "Transparency",
+      "Inspection",
+      "Adaptation",
+      "Forecasting"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "If the true state of work is hidden, inspection and adaptation are based on bad information.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 5,
+    "edited": true
+  },
+  {
+    "id": 6,
+    "prompt": "Several Scrum Teams work on one product. Do their Sprint schedules have to be identical?",
+    "options": [
+      "Yes, Scrum requires all teams to start and end Sprints at the same moment.",
+      "No. Scrum does not require synchronized Sprint calendars, though teams still need to integrate their work effectively.",
+      "Only the Product Owner decides whether synchronization is legal.",
+      "Sprints may only be synchronized for software products."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum does not require synchronized Sprint schedules across teams. What matters is effective coordination around one product and an integrated Done Increment.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 6,
+    "edited": true
+  },
+  {
+    "id": 7,
+    "prompt": "Which two statements about velocity are consistent with Scrum?",
+    "options": [
+      "Velocity can be a team's optional planning aid.",
+      "Velocity is a required Scrum commitment.",
+      "A higher velocity does not by itself prove that more value was created.",
+      "The Product Owner should set a velocity target for every Sprint."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Velocity may be useful as an optional local planning measure, but Scrum does not make it a commitment or a direct measure of value.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 7,
+    "edited": true
+  },
+  {
+    "id": 8,
+    "prompt": "Which artifact has the Definition of Done as its commitment?",
+    "options": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Increment",
+      "Product Goal"
+    ],
+    "correct": [
+      2
+    ],
+    "multi": false,
+    "explanation": "The Definition of Done is the commitment for the Increment.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 8,
+    "edited": true
+  },
+  {
+    "id": 9,
+    "prompt": "Who is the Daily Scrum primarily for?",
+    "options": [
+      "The Developers.",
+      "The Product Owner.",
+      "Stakeholders.",
+      "Management."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum is a 15-minute event for the Developers to inspect progress toward the Sprint Goal and adapt the Sprint Backlog.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 9,
+    "edited": true
+  },
+  {
+    "id": 10,
+    "prompt": "Who has the authority to cancel a Sprint?",
+    "options": [
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The Developers.",
+      "Any stakeholder."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Only the Product Owner has the authority to cancel a Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 10,
+    "edited": true
+  },
+  {
+    "id": 11,
+    "prompt": "A team collects lots of data but never changes course when the data shows a problem. Which part of empiricism is missing?",
+    "options": [
+      "Adaptation.",
+      "Transparency.",
+      "Timeboxing.",
+      "Sizing."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Inspection only helps when the team is willing to adapt based on what it learns.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 11,
+    "edited": true
+  },
+  {
+    "id": 12,
+    "prompt": "Which two signs suggest a Scrum Master is acting more like a traditional project coordinator than a Scrum Master?",
+    "options": [
+      "Assigning tasks to individuals.",
+      "Coaching the team to solve its own workflow problem.",
+      "Collecting status from each Developer for management reporting.",
+      "Helping the Product Owner communicate a Product Goal."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Task assignment and individual status collection are command-and-control behaviors that work against Scrum's self-management.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 12,
+    "edited": true
+  },
+  {
+    "id": 13,
+    "prompt": "The team spends Sprint Review reading a long status deck and leaves no time for discussion. What is the main problem?",
+    "options": [
+      "Sprint Review should be an inspection and adaptation working session, not just a presentation.",
+      "Sprint Review should only contain the Daily Scrum questions.",
+      "Stakeholders should not attend Sprint Review.",
+      "The Scrum Master must present instead."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Sprint Review works best as a collaborative working session focused on results, changed conditions, and next steps.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 13,
+    "edited": true
+  },
+  {
+    "id": 14,
+    "prompt": "True or False: The Definition of Done is a commitment associated with the Increment.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum associates the Definition of Done with the Increment.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 14,
+    "edited": true
+  },
+  {
+    "id": 15,
+    "prompt": "Which two are Developer accountabilities in Scrum?",
+    "options": [
+      "Creating a plan for the Sprint.",
+      "Ordering the Product Backlog.",
+      "Adapting their plan each day toward the Sprint Goal.",
+      "Canceling the Sprint when scope changes."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Developers create the Sprint plan through the Sprint Backlog and adapt that plan as they learn.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 15,
+    "edited": true
+  },
+  {
+    "id": 16,
+    "prompt": "Which two behaviors best demonstrate the Scrum value of Focus?",
+    "options": [
+      "Keeping attention on the Sprint Goal during the Sprint.",
+      "Starting extra work whenever someone important asks.",
+      "Limiting distractions that do not help the current objective.",
+      "Avoiding stakeholder feedback until the project is finished."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Focus means concentrating on the work of the Sprint and the team's goals rather than constantly chasing unrelated work.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 16,
+    "edited": true
+  },
+  {
+    "id": 17,
+    "prompt": "Why does Scrum favor smaller, cross-functional teams?",
+    "options": [
+      "They tend to communicate better and can focus on creating value with fewer handoffs.",
+      "They guarantee higher velocity.",
+      "They eliminate the need for stakeholders.",
+      "They make the Product Owner unnecessary."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Smaller, cross-functional teams reduce coordination overhead and unnecessary dependencies.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 17,
+    "edited": true
+  },
+  {
+    "id": 18,
+    "prompt": "The Product Owner attends a Daily Scrum and starts directing individual work. What should the Scrum Master do?",
+    "options": [
+      "Encourage it because the Product Owner owns all Scrum work.",
+      "Help everyone understand that the Daily Scrum is for Developers to inspect and adapt their plan.",
+      "Cancel the Sprint immediately.",
+      "Replace the Daily Scrum with written status reports."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum is for Developers. Others may be present in some circumstances, but it should not become a command-and-control meeting.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 18,
+    "edited": true
+  },
+  {
+    "id": 19,
+    "prompt": "What should happen when inspection shows that the product or process has moved outside acceptable limits?",
+    "options": [
+      "Adapt as soon as possible to reduce further deviation.",
+      "Wait until the next annual planning cycle.",
+      "Freeze the Product Backlog.",
+      "Increase the Sprint length."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Inspection without timely adaptation has little value. Scrum expects adjustment when important deviations are discovered.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 19,
+    "edited": true
+  },
+  {
+    "id": 20,
+    "prompt": "Which response best supports self-management when Developers raise a workflow problem?",
+    "options": [
+      "Help them understand the constraint and let them work out a solution where possible.",
+      "Immediately assign a process for them to follow.",
+      "Escalate every issue to management.",
+      "Have the Product Owner decide the team's workflow."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum encourages self-managing teams. Coaching and removing impediments are better than unnecessary command-and-control.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 20,
+    "edited": true
+  },
+  {
+    "id": 21,
+    "prompt": "A manager wants to create separate testing and architecture sub-teams inside one Scrum Team. What should the Scrum Master explain?",
+    "options": [
+      "That is required for teams larger than seven.",
+      "Scrum Teams do not contain sub-teams; accountability stays with the whole team and its accountabilities.",
+      "It is fine as long as the Product Owner approves.",
+      "Only the testing sub-team is allowed in Scrum."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum Teams do not have sub-teams or internal hierarchies. Different skills can exist, but the team works as one unit.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 21,
+    "edited": true
+  },
+  {
+    "id": 22,
+    "prompt": "A Scrum Master is asked to facilitate every Scrum event forever. What is the best long-term goal?",
+    "options": [
+      "Remain the permanent meeting owner so Scrum stays consistent.",
+      "Help the Scrum Team become capable of running useful events without depending on the Scrum Master for every detail.",
+      "Move all events to email.",
+      "Have the Product Owner lead every event instead."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Scrum Master may facilitate when useful, but coaching should increase the team's ability to use Scrum effectively without unnecessary dependency.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 22,
+    "edited": true
+  },
+  {
+    "id": 23,
+    "prompt": "For a one-month Sprint, what is the maximum timebox for Sprint Review?",
+    "options": [
+      "Four hours.",
+      "Two hours.",
+      "Eight hours.",
+      "There is no timebox."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Sprint Review is timeboxed to a maximum of four hours for a one-month Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 23,
+    "edited": true
+  },
+  {
+    "id": 24,
+    "prompt": "Which two ideas are central to Scrum theory?",
+    "options": [
+      "Empiricism.",
+      "Lean thinking.",
+      "Critical path management.",
+      "Earned value control."
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "multi": true,
+    "explanation": "Scrum is founded on empiricism and lean thinking.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 24,
+    "edited": true
+  },
+  {
+    "id": 25,
+    "prompt": "A company has a mandatory quality standard that applies to every product. How does that affect a Scrum Team's Definition of Done?",
+    "options": [
+      "The team may ignore it if the Sprint Goal is urgent.",
+      "The team's Definition of Done must include at least that organizational standard.",
+      "The Scrum Master replaces it with a team-specific standard.",
+      "It only applies after release."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "When an organizational Definition of Done or applicable standard exists, the Scrum Team must follow it as a minimum.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 25,
+    "edited": true
+  },
+  {
+    "id": 26,
+    "prompt": "Which two statements about Sprint Review are correct?",
+    "options": [
+      "It is a working session with stakeholders to inspect outcomes and discuss what to do next.",
+      "It is the formal approval gate for releasing the Increment.",
+      "The Product Backlog may be adapted based on what is learned.",
+      "Only the Product Owner may speak."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Sprint Review is a collaborative inspection of the Sprint's outcome with stakeholders, and what is learned may influence the Product Backlog.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 26,
+    "edited": true
+  },
+  {
+    "id": 27,
+    "prompt": "A manager asks the Scrum Master to maintain a team burndown chart because 'Scrum requires one.' What should the Scrum Master say?",
+    "options": [
+      "Correct; burndown charts are a required Scrum artifact.",
+      "Scrum does not require a burndown chart; the team may use one if it helps.",
+      "Only a burn-up chart is allowed.",
+      "Burndown charts are only allowed for one-week Sprints."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum does not prescribe a specific progress-tracking chart. Teams may use useful techniques as long as they do not replace the framework's required elements.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 27,
+    "edited": true
+  },
+  {
+    "id": 28,
+    "prompt": "What makes up the Sprint Backlog?",
+    "options": [
+      "The Sprint Goal, selected Product Backlog items, and the plan for delivering the Increment.",
+      "Only the Product Backlog items selected for the Sprint.",
+      "The Product Goal and every unfinished item from prior Sprints.",
+      "A list of tasks assigned by the Product Owner."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Sprint Backlog contains the why, what, and how for the Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 28,
+    "edited": true
+  },
+  {
+    "id": 29,
+    "prompt": "True or False: Scrum Teams contain sub-teams such as testing, architecture, and analysis teams.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum Teams are cross-functional and do not have sub-teams or hierarchies within the Scrum Team.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 29,
+    "edited": true
+  },
+  {
+    "id": 30,
+    "prompt": "Which two statements about Scrum events are true?",
+    "options": [
+      "They create regular opportunities for inspection and adaptation.",
+      "They mainly exist to provide management status reports.",
+      "Their timeboxes help create focus and reduce unnecessary meetings.",
+      "The Scrum Master must personally chair every event."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum events provide a purposeful cadence for inspection and adaptation, and their timeboxes help keep that work focused.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 30,
+    "edited": true
+  },
+  {
+    "id": 31,
+    "prompt": "Which artifact has the Sprint Goal as its commitment?",
+    "options": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Increment",
+      "Release plan"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Sprint Goal is the commitment for the Sprint Backlog.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 31,
+    "edited": true
+  },
+  {
+    "id": 32,
+    "prompt": "A Scrum Master notices the team is treating Scrum events like mandatory status meetings. What should the Scrum Master do first?",
+    "options": [
+      "Cancel the events until the team is more mature.",
+      "Teach the purpose of the events and help the team make them useful.",
+      "Take over each event and run it personally.",
+      "Replace the events with weekly project reporting."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Scrum Master helps everyone understand the purpose of Scrum events and works to keep them positive, productive, and within their timeboxes.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 32,
+    "edited": true
+  },
+  {
+    "id": 33,
+    "prompt": "True or False: Scrum requires each Developer to have a fixed job title and narrow specialty.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum Teams are cross-functional. Individuals may have specialties, but the team collectively has the skills needed to create value.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 33,
+    "edited": true
+  },
+  {
+    "id": 34,
+    "prompt": "What is the Daily Scrum supposed to help the Developers do?",
+    "options": [
+      "Inspect progress toward the Sprint Goal and adjust their plan.",
+      "Report status to the Product Owner.",
+      "Get task assignments from the Scrum Master.",
+      "Approve changes to the Product Backlog."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum focuses on progress toward the Sprint Goal and adaptation of the plan.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 34,
+    "edited": true
+  },
+  {
+    "id": 35,
+    "prompt": "Which two responses fit the Scrum Master's approach to impediments?",
+    "options": [
+      "Help the team cause important impediments to be removed.",
+      "Personally solve every impediment so the team never has to deal with them.",
+      "Coach the team so it becomes better at handling problems itself.",
+      "Put every impediment into the Product Backlog and wait."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "The Scrum Master helps remove impediments while also strengthening the team's own ability to solve problems, rather than becoming a permanent dependency.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 35,
+    "edited": true
+  },
+  {
+    "id": 36,
+    "prompt": "A Developer admits that an item will not meet the Definition of Done by Sprint end. Which Scrum value is being demonstrated most clearly?",
+    "options": [
+      "Openness",
+      "Respect",
+      "Commitment",
+      "Focus"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Openness includes being transparent about progress, problems, and what is actually Done.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 36,
+    "edited": true
+  },
+  {
+    "id": 37,
+    "prompt": "A Developer asks the Scrum Master to decide which teammate should handle a difficult task. What is the best response?",
+    "options": [
+      "Assign the most senior Developer.",
+      "Coach the Developers to decide how to organize the work themselves.",
+      "Ask the Product Owner to assign the task.",
+      "Delay the work until Retrospective."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Scrum Master should support self-management rather than become a task allocator.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 37,
+    "edited": true
+  },
+  {
+    "id": 38,
+    "prompt": "Which two signs would suggest the Developers are not really self-managing?",
+    "options": [
+      "A manager assigns work to individuals.",
+      "Developers decide together how to organize the Sprint work.",
+      "The Product Owner tells each Developer exactly how to implement an item.",
+      "Developers adjust their plan as they learn."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Self-management means the team decides internally who does what, when, and how. Outside task assignment and implementation direction weaken that accountability.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 38,
+    "edited": true
+  },
+  {
+    "id": 39,
+    "prompt": "A team has a person with deep testing expertise. Who is accountable for creating a quality Increment?",
+    "options": [
+      "The Scrum Team as a whole, with Developers responsible for the work needed to create it.",
+      "Only the tester.",
+      "Only the Product Owner.",
+      "Only the Scrum Master."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Quality is not handed off to a separate Scrum accountability. The Scrum Team is accountable for a valuable, useful Increment.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 39,
+    "edited": true
+  },
+  {
+    "id": 40,
+    "prompt": "A Developer says, 'I finished my part, so the integration problem belongs to someone else.' Which Scrum idea does that conflict with most?",
+    "options": [
+      "Shared accountability for creating a usable Increment.",
+      "Product Backlog ordering.",
+      "Sprint length.",
+      "Stakeholder management."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Scrum Team is accountable for producing a valuable, useful Increment, not for maximizing isolated individual output.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 40,
+    "edited": true
+  },
+  {
+    "id": 41,
+    "prompt": "What must be true before work can count as part of the Increment?",
+    "options": [
+      "It meets the Definition of Done.",
+      "The Product Owner has approved it.",
+      "It has been shown at Sprint Review.",
+      "It has been released to customers."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Work is part of the Increment only when it meets the Definition of Done.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 41,
+    "edited": true
+  },
+  {
+    "id": 42,
+    "prompt": "Which statement about releasing a Done Increment is correct?",
+    "options": [
+      "Release must wait for Sprint Review.",
+      "Release may happen whenever it makes sense; Sprint Review is not a release gate.",
+      "Only the Scrum Master may authorize a release.",
+      "A release may happen only once per Sprint."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Done Increment can be delivered before the Sprint ends. Sprint Review is for inspection and adaptation, not release approval.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 42,
+    "edited": true
+  },
+  {
+    "id": 43,
+    "prompt": "A distributed team keeps losing time because Daily Scrum logistics change every day. What would best reduce the overhead?",
+    "options": [
+      "Use a consistent time and place or connection method.",
+      "Have the Scrum Master assign a different meeting room each day.",
+      "Replace the Daily Scrum with weekly status reports.",
+      "Invite management to coordinate the setup."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum events are generally held at a consistent time and place to reduce complexity.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 43,
+    "edited": true
+  },
+  {
+    "id": 44,
+    "prompt": "Which two things should the Scrum Team inspect during Sprint Retrospective?",
+    "options": [
+      "How people interacted and worked together.",
+      "Whether the Product Owner's salary is competitive.",
+      "Processes, tools, and the Definition of Done when relevant.",
+      "Which stakeholders should receive individual performance scores."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Retrospective examines how the last Sprint went, including people, interactions, processes, tools, and quality practices.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 44,
+    "edited": true
+  },
+  {
+    "id": 45,
+    "prompt": "A team finishes Sprint Planning in three hours during a one-month Sprint. Must it continue for the full eight hours?",
+    "options": [
+      "Yes. The timebox is a required duration.",
+      "No. A timebox is a maximum; the event can end when its purpose has been achieved.",
+      "Only if the Scrum Master approves an early finish.",
+      "Only when the Product Owner leaves early."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A timebox is a maximum duration, not a required amount of time to consume.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 45,
+    "edited": true
+  },
+  {
+    "id": 46,
+    "prompt": "The Developers realize they selected too much work, but the Sprint Goal is still achievable. What should they do?",
+    "options": [
+      "Work with the Product Owner to adjust scope while protecting the Sprint Goal.",
+      "Lower the Definition of Done for the Sprint.",
+      "Cancel the Sprint automatically.",
+      "Wait until Sprint Review to mention it."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scope may be clarified and renegotiated with the Product Owner as more is learned, as long as the Sprint Goal is not endangered and quality does not decrease.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 46,
+    "edited": true
+  },
+  {
+    "id": 47,
+    "prompt": "A Scrum Master is working with executives who demand a fixed one-year scope. What is the most useful response?",
+    "options": [
+      "Promise the scope because Scrum guarantees delivery dates.",
+      "Help them understand empirical planning and the value of adapting as more is learned.",
+      "Refuse to communicate with management because they are outside the Scrum Team.",
+      "Replace the Product Backlog with a Gantt chart."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Scrum Master serves the organization by helping people understand empirical approaches to complex work and planning.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 47,
+    "edited": true
+  },
+  {
+    "id": 48,
+    "prompt": "True or False: A Done Increment may be released before the Sprint ends.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum does not require waiting for Sprint Review or the end of the Sprint to release a Done Increment.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 48,
+    "edited": true
+  },
+  {
+    "id": 49,
+    "prompt": "During Sprint Planning, Developers break selected work into smaller work items. Who decides the decomposition?",
+    "options": [
+      "The Developers",
+      "The Product Owner",
+      "The Scrum Master",
+      "The most senior architect"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Developers decide how to decompose and organize the selected work.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 49,
+    "edited": true
+  },
+  {
+    "id": 50,
+    "prompt": "A team keeps adding meetings to inspect the same work because the Scrum events are not useful. What is a better first move?",
+    "options": [
+      "Make the existing Scrum events effective before adding more process.",
+      "Remove Sprint Review.",
+      "Turn the Daily Scrum into an hour-long status meeting.",
+      "Ask management to attend every event."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum already provides a regular cadence for inspection and adaptation. If those events are weak, improving them is usually more useful than layering on more ceremony.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 50,
+    "edited": true
+  },
+  {
+    "id": 51,
+    "prompt": "True or False: Every Product Backlog item selected during Sprint Planning is a guarantee that it will be finished.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The selected work is a forecast. The Sprint Goal is the commitment.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 51,
+    "edited": true
+  },
+  {
+    "id": 52,
+    "prompt": "During Sprint Planning, who makes the call on how much work the Developers believe they can take on?",
+    "options": [
+      "The Developers.",
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The highest-ranking stakeholder."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Developers select the work they believe they can complete, informed by discussion with the Product Owner and by capacity, past performance, and the Definition of Done.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 52,
+    "edited": true
+  },
+  {
+    "id": 53,
+    "prompt": "Who is accountable for creating a usable Increment each Sprint?",
+    "options": [
+      "The Developers",
+      "The Product Owner",
+      "The Scrum Master",
+      "Stakeholders"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Developers are accountable for creating a usable Increment each Sprint. The Scrum Team as a whole is accountable for creating a valuable, useful Increment.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 53,
+    "edited": true
+  },
+  {
+    "id": 54,
+    "prompt": "For a one-month Sprint, what is the maximum timebox for Sprint Planning?",
+    "options": [
+      "2 hours",
+      "4 hours",
+      "8 hours",
+      "1 day plus the Daily Scrum"
+    ],
+    "correct": [
+      2
+    ],
+    "multi": false,
+    "explanation": "Sprint Planning is timeboxed to a maximum of eight hours for a one-month Sprint.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 54,
+    "edited": true
+  },
+  {
+    "id": 55,
+    "prompt": "A Sprint ends Friday afternoon. When does the next Sprint begin?",
+    "options": [
+      "Immediately after the previous Sprint concludes.",
+      "The following Monday.",
+      "After the Product Owner finishes refinement.",
+      "After a separate planning gap."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A new Sprint starts immediately after the conclusion of the previous Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 55,
+    "edited": true
+  },
+  {
+    "id": 56,
+    "prompt": "For a one-month Sprint, what is the maximum timebox for Sprint Retrospective?",
+    "options": [
+      "Three hours.",
+      "Four hours.",
+      "Eight hours.",
+      "One full day."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Sprint Retrospective is timeboxed to a maximum of three hours for a one-month Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 56,
+    "edited": true
+  },
+  {
+    "id": 57,
+    "prompt": "Which statement is true during a Sprint?",
+    "options": [
+      "Quality does not decrease.",
+      "The Product Backlog cannot be refined.",
+      "The Sprint Backlog cannot change.",
+      "Stakeholders cannot provide feedback."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum explicitly states that quality does not decrease during the Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 57,
+    "edited": true
+  },
+  {
+    "id": 58,
+    "prompt": "Who owns and updates the Sprint Backlog?",
+    "options": [
+      "The Developers.",
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The project manager."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Sprint Backlog is a plan by and for the Developers.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 58,
+    "edited": true
+  },
+  {
+    "id": 59,
+    "prompt": "True or False: The Sprint Review must be a formal demo presentation.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Sprint Review is a working session. A demo can be useful, but Scrum does not require a formal presentation format.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 59,
+    "edited": true
+  },
+  {
+    "id": 60,
+    "prompt": "What are the three topics Sprint Planning addresses?",
+    "options": [
+      "Why the Sprint is valuable, what can be done, and how the work will get done.",
+      "Who is on the team, who reports to whom, and who approves the release.",
+      "What failed last Sprint, who caused it, and how to prevent it.",
+      "Budget, staffing, and release approval."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Sprint Planning addresses why the Sprint is valuable, what can be done this Sprint, and how the chosen work will get done.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 60,
+    "edited": true
+  },
+  {
+    "id": 61,
+    "prompt": "Which two statements are true about change during a Sprint?",
+    "options": [
+      "Changes that endanger the Sprint Goal should be avoided.",
+      "No change of any kind is allowed once Sprint Planning ends.",
+      "Scope may be clarified and renegotiated with the Product Owner as more is learned.",
+      "The Scrum Master personally approves all scope changes."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "A Sprint is not frozen. The team can learn and adjust scope with the Product Owner, but the Sprint Goal must remain protected.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 61,
+    "edited": true
+  },
+  {
+    "id": 62,
+    "prompt": "Mid-Sprint, the Developers discover a better way to achieve the Sprint Goal. Can they update the Sprint Backlog?",
+    "options": [
+      "Yes.",
+      "No."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Sprint Backlog is updated throughout the Sprint as more is learned.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 62,
+    "edited": true
+  },
+  {
+    "id": 63,
+    "prompt": "Who is accountable for effective Product Backlog management?",
+    "options": [
+      "The Developers",
+      "The Product Owner",
+      "The Scrum Master",
+      "The project manager"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Product Owner is accountable for effective Product Backlog management, even when other people help with the work.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 63,
+    "edited": true
+  },
+  {
+    "id": 64,
+    "prompt": "True or False: A 'tester' on a Scrum Team has a separate Scrum accountability called Tester.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum defines three accountabilities: Product Owner, Scrum Master, and Developers. Testing skills can exist within the Developers.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 64,
+    "edited": true
+  },
+  {
+    "id": 65,
+    "prompt": "A Developer wants to use a different Daily Scrum format from the usual three questions. Is that allowed?",
+    "options": [
+      "No. Scrum requires the three-question format.",
+      "Yes. Developers may use any structure that helps them inspect progress toward the Sprint Goal and adapt the Sprint Backlog.",
+      "Only if the Scrum Master writes the new format.",
+      "Only during the last week of a Sprint."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum does not require a specific Daily Scrum script. Developers choose a structure that creates focus on the Sprint Goal and a useful plan for the next day.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 65,
+    "edited": true
+  },
+  {
+    "id": 66,
+    "prompt": "A Sprint Goal is useful because it:",
+    "options": [
+      "Gives the Sprint a single objective while allowing some flexibility in the exact work.",
+      "Guarantees every selected Product Backlog item will be finished.",
+      "Locks scope so nothing can change.",
+      "Replaces the Product Goal for the duration of the Sprint."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Sprint Goal gives focus and coherence while allowing the plan to adapt as more is learned.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 66,
+    "edited": true
+  },
+  {
+    "id": 67,
+    "prompt": "What is the maximum timebox for the Daily Scrum?",
+    "options": [
+      "10 minutes",
+      "15 minutes",
+      "30 minutes",
+      "As long as needed"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum is a 15-minute event for the Developers.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 67,
+    "edited": true
+  },
+  {
+    "id": 68,
+    "prompt": "The Scrum Master is absent for a day. Can the Scrum Team still hold its Daily Scrum?",
+    "options": [
+      "No. The Daily Scrum requires the Scrum Master.",
+      "Yes. The Daily Scrum is for Developers and does not depend on the Scrum Master's attendance.",
+      "Only if the Product Owner leads it.",
+      "Only if management approves."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum belongs to the Developers. The Scrum Master helps them understand its purpose but does not need to attend or lead it.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 68,
+    "edited": true
+  },
+  {
+    "id": 69,
+    "prompt": "What is the purpose of timeboxes in Scrum?",
+    "options": [
+      "To create a maximum amount of time for an event and encourage focus.",
+      "To guarantee the team finishes all planned work.",
+      "To give the Scrum Master authority over the team.",
+      "To prevent any discussion after the event ends."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Timeboxes set a maximum duration and help keep events focused without prescribing the exact minute-by-minute agenda.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 69,
+    "edited": true
+  },
+  {
+    "id": 70,
+    "prompt": "A team asks why Scrum does not prescribe a specific estimation method. What is the best explanation?",
+    "options": [
+      "Estimation is prohibited in Scrum.",
+      "Scrum defines a framework; teams may choose useful tactics that fit within it.",
+      "Only the Scrum Master is allowed to choose estimation methods.",
+      "All Product Backlog items must use hours instead."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum defines the essential framework and leaves many context-specific techniques to the people using it.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 70,
+    "edited": true
+  },
+  {
+    "id": 71,
+    "prompt": "A Scrum Team wants to skip Sprint Retrospective because the Sprint went well. What should the Scrum Master say?",
+    "options": [
+      "That is fine when there were no defects.",
+      "Retrospective still happens each Sprint because improvement is ongoing.",
+      "Only the Product Owner decides whether Retrospective is needed.",
+      "Replace it with a longer Sprint Review."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Sprint Retrospective concludes the Sprint and is used to plan ways to increase quality and effectiveness, even when things went well.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 71,
+    "edited": true
+  },
+  {
+    "id": 72,
+    "prompt": "True or False: A Sprint should be canceled whenever the Developers realize they cannot finish every selected Product Backlog item.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The selected work is a forecast. If the Sprint Goal is still useful, the team can adapt scope instead of canceling the Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 72,
+    "edited": true
+  },
+  {
+    "id": 73,
+    "prompt": "The Product Owner wants the Scrum Master to decide Product Backlog order during a disagreement. What should happen?",
+    "options": [
+      "The Scrum Master should make the decision to stay neutral.",
+      "The Product Owner remains accountable for ordering the Product Backlog.",
+      "The Developers vote and the majority decides.",
+      "Stakeholders must reach unanimous agreement."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Product Owner is accountable for effective Product Backlog management, including ordering. Others can advise, but the accountability remains with the Product Owner.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 73,
+    "edited": true
+  },
+  {
+    "id": 74,
+    "prompt": "A team identifies a serious process problem in Retrospective. When should the improvement be addressed?",
+    "options": [
+      "Only after the current release is finished.",
+      "As soon as practical; the team may even add it to the next Sprint Backlog if appropriate.",
+      "At the next annual planning meeting.",
+      "Only if management funds a separate improvement project."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Improvements are not meant to sit on a shelf. The team should address them as soon as practical, and important improvements may be added to the next Sprint Backlog.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 74,
+    "edited": true
+  },
+  {
+    "id": 75,
+    "prompt": "A Sprint is three weeks long. What is the maximum length allowed by Scrum?",
+    "options": [
+      "Two weeks",
+      "One month",
+      "Six weeks",
+      "There is no maximum"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Sprint is a fixed-length event of one month or less.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 75,
+    "edited": true
+  },
+  {
+    "id": 76,
+    "prompt": "A Scrum Team keeps changing priorities every day and rarely finishes anything meaningful. Which Scrum value would most directly help correct this pattern?",
+    "options": [
+      "Focus",
+      "Respect",
+      "Courage",
+      "Openness"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Focus helps the team concentrate on a meaningful goal instead of constantly switching attention.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 76,
+    "edited": true
+  },
+  {
+    "id": 77,
+    "prompt": "True or False: Scrum can be used only for software development.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "False. Scrum is used for complex work in many domains. The term Developers refers to the people doing the work needed to create value.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 77,
+    "edited": true
+  },
+  {
+    "id": 78,
+    "prompt": "A senior engineer repeatedly dismisses a junior teammate's ideas without discussion. Which Scrum value is most obviously being ignored?",
+    "options": [
+      "Respect",
+      "Focus",
+      "Commitment",
+      "Courage"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Respect means treating people as capable professionals whose perspectives deserve consideration.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 78,
+    "edited": true
+  },
+  {
+    "id": 79,
+    "prompt": "A Scrum Master sees the team solving a difficult problem on its own. What should the Scrum Master usually do?",
+    "options": [
+      "Take over so the solution is correct.",
+      "Allow the team to self-manage and step in only when coaching or help is useful.",
+      "Escalate the problem immediately.",
+      "Assign a team lead to make the decision."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum Masters support self-management. Solving every problem for the team can create dependence and weaken team capability.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 79,
+    "edited": true
+  },
+  {
+    "id": 80,
+    "prompt": "During Sprint Planning, the team needs technical advice from a specialist outside the Scrum Team. What is allowed?",
+    "options": [
+      "No outsiders may ever be involved in Sprint Planning.",
+      "The Scrum Team may invite other people to provide advice.",
+      "The specialist must become the Scrum Master for that Sprint.",
+      "The specialist must approve the Sprint Goal."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Scrum Team may invite other people to Sprint Planning to provide advice when that helps the planning work.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 80,
+    "edited": true
+  },
+  {
+    "id": 81,
+    "prompt": "Why does Scrum use a Definition of Done instead of letting each person decide what 'finished' means?",
+    "options": [
+      "To create a shared quality standard and make the state of the Increment transparent.",
+      "To let the Scrum Master grade Developers.",
+      "To eliminate the need for Product Backlog refinement.",
+      "To guarantee release dates."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Definition of Done gives everyone a shared understanding of the quality measures required for work to count as part of the Increment.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 81,
+    "edited": true
+  },
+  {
+    "id": 82,
+    "prompt": "True or False: The Scrum Master is the team's manager and has final authority over how Developers do the work.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "False. Developers are self-managing and decide how to turn selected Product Backlog items into a Done Increment.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 82,
+    "edited": true
+  },
+  {
+    "id": 83,
+    "prompt": "What does cross-functional mean for a Scrum Team?",
+    "options": [
+      "Every person must be able to perform every skill equally well.",
+      "The team has the skills needed to create value each Sprint.",
+      "Each specialty must have its own sub-team.",
+      "The Scrum Master must fill any missing technical role."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Cross-functional means the team collectively has the skills needed to create value without relying on separate functional silos for normal delivery.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 83,
+    "edited": true
+  },
+  {
+    "id": 84,
+    "prompt": "True or False: Product Backlog refinement is a formal Scrum event with its own required timebox.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "False. Refinement is an ongoing activity, not one of the formal Scrum events.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 84,
+    "edited": true
+  },
+  {
+    "id": 85,
+    "prompt": "Who decides how Product Backlog items selected for a Sprint are turned into an Increment?",
+    "options": [
+      "The Developers",
+      "The Product Owner",
+      "The Scrum Master",
+      "Stakeholders"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "How the work gets done is up to the Developers.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 85,
+    "edited": true
+  },
+  {
+    "id": 86,
+    "prompt": "How large should a Scrum Team typically be?",
+    "options": [
+      "Exactly 7 people.",
+      "10 or fewer people in most cases.",
+      "At least 12 people so every specialty is represented.",
+      "Any size, as long as the Scrum Master approves it."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum Teams are typically 10 or fewer people so they can stay nimble and communicate effectively.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 86,
+    "edited": true
+  },
+  {
+    "id": 87,
+    "prompt": "A Scrum Master is helping a new Product Owner. Which two areas are appropriate to coach?",
+    "options": [
+      "How to define a useful Product Goal.",
+      "How to assign daily tasks to Developers.",
+      "How to maintain an effective Product Backlog.",
+      "How to approve each Increment before it can be Done."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum Masters help Product Owners with Product Goals and Product Backlog management, among other product-planning practices.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 87,
+    "edited": true
+  },
+  {
+    "id": 88,
+    "prompt": "A manager asks what the Scrum Master is ultimately accountable for. What is the best answer?",
+    "options": [
+      "Making sure every Developer stays busy.",
+      "The Scrum Team's effectiveness.",
+      "Approving the Product Backlog before Sprint Planning.",
+      "Assigning work so the Sprint finishes on time."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Scrum Master is accountable for the Scrum Team's effectiveness and helps the team improve how it uses Scrum.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 88,
+    "edited": true
+  },
+  {
+    "id": 89,
+    "prompt": "Which Scrum value is most visible when team members openly raise a risk instead of hiding it?",
+    "options": [
+      "Openness.",
+      "Utilization.",
+      "Specialization.",
+      "Prediction."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Openness supports honest visibility into the work, problems, and risks.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 89,
+    "edited": true
+  },
+  {
+    "id": 90,
+    "prompt": "A team wants to lower its quality standard for one Sprint because it is behind. What is the best answer?",
+    "options": [
+      "Do not lower quality simply to fit more scope into the Sprint.",
+      "Lower it if the Product Owner approves.",
+      "Lower it only for internal products.",
+      "Lower it if the Sprint Review is tomorrow."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum states that quality does not decrease during a Sprint.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 90,
+    "edited": true
+  },
+  {
+    "id": 91,
+    "prompt": "Which two statements fit Scrum?",
+    "options": [
+      "It is a lightweight framework for complex work.",
+      "It prescribes the detailed engineering practices every team must use.",
+      "It leaves room for teams to add useful practices that fit within the framework.",
+      "It is a reporting method built around fixed scope."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum provides a lightweight framework and intentionally leaves many context-specific practices to the people using it.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 91,
+    "edited": true
+  },
+  {
+    "id": 92,
+    "prompt": "If several Scrum Teams work on the same product, which set should they share?",
+    "options": [
+      "Product Goal, Product Backlog, and Product Owner.",
+      "Sprint Goal, Sprint Backlog, and Daily Scrum.",
+      "Scrum Master, Sprint Backlog, and release calendar.",
+      "Only the Product Goal."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Teams working on one product share the Product Goal, Product Backlog, and Product Owner.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 92,
+    "edited": true
+  },
+  {
+    "id": 93,
+    "prompt": "The team discovers that an important assumption was wrong. What does empiricism suggest they should do?",
+    "options": [
+      "Stick to the original plan so the metrics remain stable.",
+      "Adapt based on what they learned.",
+      "Wait until the release is complete before changing direction.",
+      "Ask management to rewrite the Scrum framework."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Empiricism depends on making work visible, inspecting what is happening, and adapting when new evidence shows a change is needed.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 93,
+    "edited": true
+  },
+  {
+    "id": 94,
+    "prompt": "A team finishes coding a feature but has not completed testing required by its Definition of Done. How should the feature be treated?",
+    "options": [
+      "It is not Done and should not be counted as part of the Increment.",
+      "It is Done because coding is complete.",
+      "It is Done if the Product Owner accepts the risk.",
+      "It becomes Done automatically at Sprint Review."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A Product Backlog item that does not meet the Definition of Done is not part of the Increment.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 94,
+    "edited": true
+  },
+  {
+    "id": 95,
+    "prompt": "True or False: Stakeholders are regular participants in the Sprint Retrospective.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Sprint Retrospective is an event for the Scrum Team.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 95,
+    "edited": true
+  },
+  {
+    "id": 96,
+    "prompt": "A team wants a separate hardening Sprint after every three Sprints. What is the main Scrum concern?",
+    "options": [
+      "Hardening Sprints must be exactly one week.",
+      "Work should meet the Definition of Done within the Sprint rather than relying on a later cleanup Sprint.",
+      "Only the Product Owner can perform hardening work.",
+      "Hardening is required only before major releases."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Done Increment should satisfy the Definition of Done during the Sprint. Deferring required quality work to a later hardening Sprint hides the true state of the product.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 96,
+    "edited": true
+  },
+  {
+    "id": 97,
+    "prompt": "Which two actions fit the Scrum Master's service to the Scrum Team?",
+    "options": [
+      "Coaching the team in self-management.",
+      "Assigning specialists to Product Backlog items.",
+      "Helping remove impediments that slow the team's progress.",
+      "Writing the Sprint Backlog for the Developers."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "The Scrum Master coaches self-management and helps the team cause impediments to be removed. The Developers own their Sprint Backlog and daily plan.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 97,
+    "edited": true
+  },
+  {
+    "id": 98,
+    "prompt": "Why do Scrum artifacts have commitments?",
+    "options": [
+      "To create transparency and focus around what each artifact represents.",
+      "To give managers a way to punish missed estimates.",
+      "To replace the need for inspection.",
+      "To make all scope fixed at the start of a project."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The commitments improve transparency and focus by clarifying the objective or quality standard tied to each artifact.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 98,
+    "edited": true
+  },
+  {
+    "id": 99,
+    "prompt": "Which two statements are true about practices used with Scrum?",
+    "options": [
+      "Teams may add practices that fit within Scrum and help them create value.",
+      "Anything not named in the Scrum Guide is forbidden.",
+      "Scrum intentionally leaves many tactics and techniques to the people doing the work.",
+      "Only practices approved by the Scrum Master may be used."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum defines the framework, not every tactic. Teams can use complementary practices as long as they do not undermine Scrum.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 99,
+    "edited": true
+  },
+  {
+    "id": 100,
+    "prompt": "Why is the Daily Scrum held at the same time and place each working day?",
+    "options": [
+      "To make it easier for managers to attend.",
+      "To reduce complexity and unnecessary coordination overhead.",
+      "Because the Product Owner must approve attendance.",
+      "To make status reports easier to archive."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A consistent time and place reduces complexity and helps the Developers focus on inspecting progress and adapting their plan.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 100,
+    "edited": true
+  },
+  {
+    "id": 101,
+    "prompt": "A Scrum Master notices a recurring dependency on one external specialist. What is the most useful long-term direction?",
+    "options": [
+      "Keep the dependency hidden so velocity stays stable.",
+      "Help the organization and teams reduce the dependency and strengthen the skills needed to deliver value.",
+      "Create a permanent approval queue for the specialist.",
+      "Make the specialist the Product Owner."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Scrum Master should help improve the system around the team, including recurring organizational impediments and dependencies that hurt effective delivery.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 101,
+    "edited": true
+  },
+  {
+    "id": 102,
+    "prompt": "Which artifact has the Product Goal as its commitment?",
+    "options": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Increment",
+      "Definition of Done"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Goal is the commitment for the Product Backlog.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 102,
+    "edited": true
+  },
+  {
+    "id": 103,
+    "prompt": "True or False: The Product Owner can be a committee as long as one person attends Sprint Planning.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "False. The Product Owner is one person, not a committee, even though many people may influence decisions.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 103,
+    "edited": true
+  },
+  {
+    "id": 104,
+    "prompt": "True or False: Scrum requires a special Sprint 0 before the first real Sprint begins.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "False. Sprint 0 is not a Scrum event. Teams begin learning and creating value through regular Sprints.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 104,
+    "edited": true
+  },
+  {
+    "id": 105,
+    "prompt": "Which statement best describes self-management in Scrum?",
+    "options": [
+      "The Scrum Master assigns work but Developers may change the order.",
+      "The team decides internally who does what, when, and how.",
+      "The Product Owner decides who works on each Product Backlog item.",
+      "Managers are removed from the organization."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A self-managing Scrum Team decides internally who does what, when, and how.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 105,
+    "edited": true
+  },
+  {
+    "id": 106,
+    "prompt": "Two Scrum Teams on the same product create work that cannot be integrated without a separate integration team. What should concern the Scrum Master most?",
+    "options": [
+      "The product may not have a usable integrated Increment each Sprint.",
+      "The Product Owner may have too few meetings.",
+      "The teams may have different velocities.",
+      "The integration team may need a longer Daily Scrum."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "When teams work on the same product, their combined work needs to create an integrated, usable Increment that meets the shared Definition of Done.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 106,
+    "edited": true
+  },
+  {
+    "id": 107,
+    "prompt": "No manager is assigning tasks inside the team. In Scrum, what should self-management look like instead?",
+    "options": [
+      "The team decides internally who does what, when, and how.",
+      "The Scrum Master assigns work but not technical details.",
+      "The Product Owner decides who performs each task.",
+      "Management decides how work is divided inside the Sprint."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A self-managing Scrum Team decides internally who does what, when, and how.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 107,
+    "edited": true
+  },
+  {
+    "id": 108,
+    "prompt": "Who participates in Sprint Planning?",
+    "options": [
+      "Only the Product Owner and Scrum Master.",
+      "The entire Scrum Team.",
+      "Only the Developers.",
+      "Only people selected by the Scrum Master."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Sprint Planning is collaborative work for the entire Scrum Team.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 108,
+    "edited": true
+  },
+  {
+    "id": 109,
+    "prompt": "Which two problems can come from an unclear Definition of Done?",
+    "options": [
+      "People may have different ideas about whether work is actually complete.",
+      "The Product Backlog automatically becomes invalid.",
+      "Inspection becomes less reliable because the quality state is unclear.",
+      "The Product Owner loses accountability for value."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "The Definition of Done creates a shared understanding of completion. If it is unclear, transparency drops and inspection becomes less trustworthy.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 109,
+    "edited": true
+  },
+  {
+    "id": 110,
+    "prompt": "Which event starts the Sprint?",
+    "options": [
+      "Daily Scrum",
+      "Sprint Planning",
+      "Sprint Review",
+      "Sprint Retrospective"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Sprint Planning initiates the Sprint by laying out why the Sprint is valuable, what can be done, and how the chosen work will get done.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 110,
+    "edited": true
+  },
+  {
+    "id": 111,
+    "prompt": "Sprint Planning starts with the Product Owner describing a useful outcome for the Sprint. How does the Sprint Goal get established?",
+    "options": [
+      "The Scrum Team together during Sprint Planning.",
+      "The Product Owner alone before the event.",
+      "The Scrum Master after the event.",
+      "The Developers at the Daily Scrum."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Scrum Team collaborates to create the Sprint Goal during Sprint Planning.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 111,
+    "edited": true
+  },
+  {
+    "id": 112,
+    "prompt": "At the end of the Sprint, the Scrum Team meets with key stakeholders. What are they there to accomplish?",
+    "options": [
+      "Inspect the Sprint's outcome and collaborate on what to do next.",
+      "Approve or reject the Increment.",
+      "Rate individual team members.",
+      "Finalize every detail of the next Sprint."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Sprint Review is a working session to inspect the outcome and determine future adaptations.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 112,
+    "edited": true
+  },
+  {
+    "id": 113,
+    "prompt": "Which three ideas form the basis of empiricism in Scrum?",
+    "options": [
+      "Transparency.",
+      "Inspection.",
+      "Adaptation.",
+      "Utilization.",
+      "Prediction."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum is founded on transparency, inspection, and adaptation.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 113,
+    "edited": true
+  },
+  {
+    "id": 114,
+    "prompt": "Which statement about quality during a Sprint is correct?",
+    "options": [
+      "Quality may be lowered if the Sprint is behind.",
+      "Quality does not decrease during the Sprint.",
+      "The Product Owner decides when quality can be traded for scope.",
+      "Quality is only inspected at Sprint Review."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "One of the rules of the Sprint is that quality does not decrease.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 114,
+    "edited": true
+  },
+  {
+    "id": 115,
+    "prompt": "A Product Backlog item does not meet the Definition of Done at Sprint end. What happens to it?",
+    "options": [
+      "It may be presented as Done if most of the work is complete.",
+      "It cannot be considered part of the Increment and returns to the Product Backlog for future consideration.",
+      "The Scrum Master signs an exception.",
+      "It automatically rolls into the next Sprint Backlog."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Work that does not meet the Definition of Done is not part of the Increment. It remains work to be considered through the Product Backlog.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 115,
+    "edited": true
+  },
+  {
+    "id": 116,
+    "prompt": "Which two actions fit the Scrum Master's service to the organization?",
+    "options": [
+      "Leading and coaching the adoption of Scrum.",
+      "Approving every team's Definition of Done.",
+      "Helping remove barriers between stakeholders and Scrum Teams.",
+      "Acting as the line manager for all Scrum Masters."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Scrum Masters help the organization understand Scrum and work to remove barriers that make collaboration and empirical delivery harder.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 116,
+    "edited": true
+  },
+  {
+    "id": 117,
+    "prompt": "When might canceling a Sprint make sense?",
+    "options": [
+      "When the Sprint Goal becomes obsolete.",
+      "Whenever one selected item will not be finished.",
+      "When velocity is lower than last Sprint.",
+      "When a stakeholder asks for a new feature."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A Sprint may be canceled if the Sprint Goal becomes obsolete.",
+    "source": "Shared clean-room Scrum question used in both PSPO I and PSM I practice banks",
+    "source_num": 117,
+    "edited": true
+  },
+  {
+    "id": 118,
+    "prompt": "Why are shorter Sprints often useful when uncertainty is high?",
+    "options": [
+      "They eliminate the need for Sprint Reviews.",
+      "They create more frequent opportunities to inspect results and adapt.",
+      "They allow the Scrum Master to assign work more often.",
+      "They guarantee higher velocity."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Shorter Sprints can shorten learning cycles and reduce the amount of risk carried before inspection and adaptation.",
+    "source": "Original clean-room PSM I-style practice question based on the Scrum Guide and public Scrum.org learning objectives",
+    "source_num": 118,
+    "edited": true
+  }
+]
