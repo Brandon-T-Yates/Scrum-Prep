@@ -12,7 +12,7 @@ function applyHomeTheme(theme) {
 
 function initializeHomeTheme() {
   const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-  applyHomeTheme(storedTheme === "light" ? "light" : "dark");
+  applyHomeTheme(storedTheme === "dark" ? "dark" : "light");
 }
 
 themeToggle.addEventListener("click", () => {
