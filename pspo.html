@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PSPO I Practice Exam</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main class="shell">
+    <div id="loadError" class="load-error hidden" role="alert"></div>
+
+    <section id="startScreen" class="start-screen">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Professional Scrum Product Owner I</p>
+          <h1>Practice Exam</h1>
+          <p class="subtitle">Choose how you want to study.</p>
+        </div>
+        <div class="header-actions">
+          <a class="theme-toggle nav-link" href="./index.html">← Certifications</a>
+          <button id="themeToggleStart" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙 Dark</button>
+        </div>
+      </header>
+
+      <article class="hero-card">
+        <h2>Ready to practice?</h2>
+        <p>Both modes use 80 questions. Choose the timed exam when you want to simulate the real test, or Review Mode
+          when you want to learn question-by-question.</p>
+
+        <div class="mode-grid">
+          <article class="mode-card">
+            <div>
+              <h3>Timed Practice Exam</h3>
+              <p>Simulates the exam experience. Your answers are graded when you submit or when the 60-minute timer
+                ends.</p>
+            </div>
+            <div class="mode-meta">
+              <span class="chip">80 questions</span>
+              <span class="chip">60 minutes</span>
+              <span class="chip">85% to pass</span>
+            </div>
+            <button id="startTimedBtn" class="btn btn-primary" type="button">Take the practice exam</button>
+          </article>
+
+          <article class="mode-card">
+            <div>
+              <h3>Review Mode</h3>
+              <p>Untimed study mode. Answer a question, check it immediately, then see the correct answer and
+                explanation.</p>
+            </div>
+            <div class="mode-meta">
+              <span class="chip">80 questions</span>
+              <span class="chip">No timer</span>
+              <span class="chip">Instant feedback</span>
+            </div>
+            <button id="startReviewBtn" class="btn btn-success" type="button">Start review mode</button>
+          </article>
+        </div>
+      </article>
+
+      <section id="practiceStats" class="practice-stats hidden" aria-label="Your practice stats">
+        <h2 class="practice-stats-title">Your practice stats</h2>
+        <div class="practice-stats-grid">
+          <div class="practice-stat">
+            <span class="practice-stat-label">Last attempt</span>
+            <span id="statLastAttempt" class="practice-stat-value"></span>
+            <span id="statLastAttemptMeta" class="practice-stat-meta"></span>
+          </div>
+          <div class="practice-stat">
+            <span class="practice-stat-label">Best score</span>
+            <span id="statBestScore" class="practice-stat-value"></span>
+            <span id="statBestScoreMeta" class="practice-stat-meta"></span>
+          </div>
+          <div class="practice-stat practice-stat-pass hidden" id="statFastestPassBlock">
+            <span class="practice-stat-label">Fastest pass</span>
+            <span id="statFastestPass" class="practice-stat-value"></span>
+            <span id="statFastestPassMeta" class="practice-stat-meta"></span>
+          </div>
+        </div>
+      </section>
+
+      <p class="site-disclaimer">Unofficial PSPO I study tool — Created by Tyler Yates.</p>
+    </section>
+
+    <div id="disclaimerDialog" class="modal hidden" role="dialog" aria-modal="true"
+      aria-labelledby="disclaimerTitle" aria-hidden="true">
+      <div class="modal-overlay" data-dismiss="disclaimer"></div>
+      <div class="modal-panel">
+        <h2 id="disclaimerTitle" class="modal-title">Before you begin</h2>
+        <p class="modal-text">These practice questions are not official Scrum.org exam questions. They are
+          independently collected, created, or adapted for study and are designed to help practice similar Scrum and
+          Product Owner concepts.</p>
+        <p class="modal-text">I hope they help! :)</p>
+        <div class="modal-actions">
+          <button id="disclaimerCancelBtn" class="btn" type="button">Cancel</button>
+          <button id="disclaimerStartBtn" class="btn btn-primary" type="button">Start Exam</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="examView" class="hidden" aria-hidden="true">
+      <header class="exam-header">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Professional Scrum Product Owner I</p>
+            <h1 id="modeTitle">Practice Exam</h1>
+            <p id="modeSubtitle" class="subtitle"></p>
+          </div>
+          <div class="header-actions">
+            <button id="backToModesBtn" class="theme-toggle" type="button">← Back</button>
+            <div id="timerCard" class="timer-card hidden" aria-live="polite" aria-atomic="true">
+              ⏱ <span id="timer">60:00</span>
+            </div>
+            <button id="themeToggleExam" class="theme-toggle" type="button" aria-label="Toggle dark mode">🌙 Dark</button>
+          </div>
+        </div>
+
+        <div class="progress-row" aria-live="polite">
+          <span id="answeredSummary">0 answered</span>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+            id="progressBar">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+          <span id="progressPct">0%</span>
+        </div>
+
+        <nav id="navigator" class="navigator" aria-label="Question navigator">
+          <div class="navigator-head">
+            <div class="navigator-head-main">
+              <h2 class="navigator-title">Questions</h2>
+              <span id="navigatorSummary" class="navigator-summary" aria-live="polite"></span>
+            </div>
+            <button id="navigatorToggle" class="navigator-toggle" type="button" aria-expanded="true"
+              aria-controls="questionGrid">Hide questions</button>
+            <div class="legend" id="navigatorLegend">
+              <span class="legend-item"><span class="dot" aria-hidden="true"></span> Unanswered</span>
+              <span class="legend-item"><span class="dot answered" aria-hidden="true"></span> Answered</span>
+              <span class="legend-item"><span class="dot current" aria-hidden="true"></span> Current</span>
+            </div>
+          </div>
+          <div id="questionGrid" class="question-grid"></div>
+        </nav>
+      </header>
+
+      <article id="examCard" class="exam-card">
+        <div class="question-panel">
+          <div class="question-meta">
+            <span id="questionCount" class="question-count"></span>
+            <span id="questionType" class="question-type"></span>
+          </div>
+          <h2 id="questionText" class="question-text"></h2>
+          <fieldset id="optionsFieldset" class="options-fieldset">
+            <legend class="visually-hidden">Answer choices</legend>
+            <div id="options" class="options"></div>
+          </fieldset>
+          <div id="reviewFeedback" class="review-feedback" aria-live="polite"></div>
+        </div>
+
+        <footer class="exam-footer">
+          <div class="footer-group">
+            <button id="prevBtn" class="btn" type="button">← Previous</button>
+          </div>
+          <div class="footer-group footer-actions">
+            <button id="nextBtn" class="btn" type="button">Next →</button>
+            <button id="checkBtn" class="btn btn-success hidden" type="button">Check answer</button>
+            <button id="submitBtn" class="btn btn-primary hidden" type="button">Submit exam</button>
+          </div>
+        </footer>
+      </article>
+
+      <p id="helperText" class="helper"></p>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <script src="./js/app.js" defer></script>
+</body>
+
+</html>
