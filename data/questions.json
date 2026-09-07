@@ -1,1225 +1,711 @@
 [
   {
     "id": 1,
-    "prompt": "Which factors may a Product Owner consider when deciding how to order the Product Backlog?",
+    "prompt": "A Product Owner is deciding what the Scrum Team should consider next. Which consideration is most consistent with Scrum?",
     "options": [
-      "Consider effort first and value second.",
-      "Consider which resources and skills are available to implement the work.",
-      "Order primarily around the technical cohesion identified by the Developers.",
-      "Choose the lowest-cost work first to maximize Return on Investment (ROI).",
-      "Use whatever factors help achieve the Product Goal and optimize the value delivered."
+      "Always place the smallest items first so more items can be completed.",
+      "Use a fixed scoring formula that cannot be overridden by new learning.",
+      "Order work in the way that best supports the Product Goal and the value the product needs now.",
+      "Let Developers determine the order solely from technical dependencies.",
+      "Give every stakeholder an equal number of high-order items."
     ],
     "correct": [
-      4
+      2
     ],
     "multi": false,
-    "explanation": "The Product Owner is accountable for ordering the Product Backlog to support the Product Goal and maximize value. Scrum does not prescribe one formula; relevant factors can vary by product and organization.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Scrum does not prescribe one ordering formula. The Product Owner uses judgment and evidence to order the Product Backlog in support of the Product Goal and value.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 1,
     "edited": true
   },
   {
     "id": 2,
-    "prompt": "What is the main benefit of releasing a Done Increment to customers?",
+    "prompt": "A Scrum Team can release a Done Increment today instead of waiting for a future milestone. What is the strongest product-management reason to release it?",
     "options": [
-      "To learn whether the forecasted functionality was completed.",
-      "To measure the productivity of the Scrum Team.",
-      "To test assumptions about the product with real customers or users."
+      "A release creates an opportunity to learn from actual use and outcomes.",
+      "A release proves the Developers met their original estimate.",
+      "A release is required before the Sprint Review can occur.",
+      "A release converts the Sprint Backlog into the Product Backlog."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Releasing usable product to customers or users creates evidence about whether assumptions about value were correct.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Releasing a usable Increment can generate evidence from customers, users, and the market. That evidence can validate or challenge assumptions about value.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 2,
     "edited": true
   },
   {
     "id": 3,
-    "prompt": "Inspection enables adaptation. Which actions by the Product Owner can help turn inspection into useful adaptation?",
+    "prompt": "A Sprint Review reveals that customer behavior has changed since the last Sprint. Which two Product Owner actions best support adaptation?",
     "options": [
-      "Invite relevant stakeholders to the Sprint Review so market changes can inform what may be most valuable next.",
-      "Check the Sprint Backlog for completeness at the end of Sprint Planning before allowing the Sprint to begin.",
-      "Attend the Daily Scrum to inspect a burn-down chart and re-plan the Developers' work.",
-      "Bring the current Product Backlog to the Sprint Review so inspection of the Increment and new information can help update it."
+      "Discuss the new evidence with relevant stakeholders and the Scrum Team.",
+      "Freeze the Product Backlog until the next release so the plan stays stable.",
+      "Update Product Backlog ordering when the evidence changes what is most valuable.",
+      "Require Developers to preserve every item originally forecast for the next Sprint."
     ],
     "correct": [
       0,
-      3
+      2
     ],
     "multi": true,
-    "explanation": "Inspection is useful when it leads to adaptation. The Product Owner keeps the Product Backlog transparent and current, and the Sprint Review creates an opportunity to inspect the outcome and environment with stakeholders and adapt what to do next.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Inspection matters when it can lead to adaptation. New evidence may change assumptions, priorities, and the order of future work.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 3,
     "edited": true
   },
   {
     "id": 4,
-    "prompt": "How necessary is it for a Product Owner to use value points when ordering the Product Backlog?",
+    "prompt": "A Product Owner's organization uses 'value points' for some products but not others. What does Scrum require?",
     "options": [
-      "Value points are the best and required way to predict the product's future value.",
-      "The Product Owner may use value points or any other useful ordering technique.",
-      "Value points are incompatible with empiricism and therefore cannot be used in Scrum."
+      "Every Product Backlog item must have value points before it can be ordered.",
+      "Value points may be used if helpful, but Scrum does not require that technique.",
+      "Value points are prohibited because value cannot be estimated.",
+      "Only Developers may assign value points."
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "The Product Owner is accountable for ordering the Product Backlog, but Scrum does not prescribe a specific ordering technique. Any estimate of value remains an assumption until evidence validates it.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Scrum leaves ordering techniques to the Product Owner and organization. Value points can be used, but no particular scoring method is required.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 4,
     "edited": true
   },
   {
     "id": 5,
-    "prompt": "After one Sprint ends, for which reason may a Product Owner delay the start of the next Sprint?",
+    "prompt": "A Sprint ends on Friday. The Product Owner wants Monday and Tuesday for additional planning before beginning another Sprint. What should happen?",
     "options": [
-      "The Product Owner has not yet identified a Sprint Goal.",
-      "Stakeholders were unhappy with the value from the previous Sprint.",
-      "There are not enough Product Backlog items considered ready.",
-      "None of these are valid reasons; the next Sprint begins immediately after the previous Sprint.",
-      "Quality Assurance needs extra time to finish work from the previous Sprint."
+      "Use the two days as an official refinement phase between Sprints.",
+      "Begin the next Sprint immediately after the previous Sprint concludes.",
+      "Delay only if stakeholders approve the gap.",
+      "Delay whenever the Product Backlog is not fully specified."
     ],
     "correct": [
-      3
+      1
     ],
     "multi": false,
-    "explanation": "Scrum states that a new Sprint starts immediately after the conclusion of the previous Sprint.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Scrum does not include a gap or planning phase between Sprints. A new Sprint starts immediately after the prior Sprint concludes.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 5,
     "edited": true
   },
   {
     "id": 6,
-    "prompt": "Which description best defines the Product Backlog?",
+    "prompt": "A new stakeholder asks what the Product Backlog represents. Which answer is best?",
     "options": [
-      "A detailed feature list used by Developers together with a separate technical backlog.",
-      "An emergent, ordered list of what is needed to improve the product.",
-      "A formally approved requirements list that is fixed for a defined period.",
-      "A collection of links to use-case documents stored in a central repository."
+      "A complete contract describing everything the product will ever contain.",
+      "A living, ordered list of what is currently known to be needed to improve the product.",
+      "A technical task list owned by the Developers.",
+      "A release checklist that is replaced after every Sprint."
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "The Product Backlog is the emergent, ordered list of work needed to improve the product. It evolves as the product and its environment change and remains in existence for as long as the product does.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Backlog is emergent and ordered. It evolves as the product, customers, technology, and environment change.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 6,
     "edited": true
   },
   {
     "id": 7,
-    "prompt": "Which statement best describes how the Product Owner should work with stakeholders?",
+    "prompt": "A Product Owner receives conflicting requests from sales, support, and customers. Which behavior best reflects the Product Owner accountability?",
     "options": [
-      "The Product Owner gathers formal acceptance signatures from stakeholders at each Sprint Review.",
-      "The Product Owner regularly seeks stakeholder input and uses it to inform Product Backlog decisions.",
-      "The Product Owner should minimize stakeholder involvement because only the Product Owner decides requirements.",
-      "The Product Owner simply copies stakeholder requests into User Stories."
+      "Collect input, understand the needs behind it, and make product decisions that maximize value.",
+      "Let the stakeholder with the largest budget determine the Product Backlog order.",
+      "Avoid stakeholders between Sprint Reviews to protect the Developers.",
+      "Turn each request into a User Story without changing or challenging it."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Product Owner remains accountable for maximizing value and Product Backlog management, which requires understanding stakeholder needs and using that input when making product decisions.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Owner represents many needs but remains one accountable decision-maker for maximizing product value and Product Backlog management.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 7,
     "edited": true
   },
   {
     "id": 8,
-    "prompt": "True or False: Revenue is the only valid way to determine the value delivered by a product.",
+    "prompt": "A public-sector product does not generate sales revenue. Can it still deliver measurable value?",
     "options": [
-      "True",
-      "False"
+      "Yes",
+      "No"
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Value can take many forms and varies by product and organization. Revenue may be one indicator, but it is not the only possible measure of value.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Value is context-dependent. It may include outcomes such as improved service, risk reduction, customer satisfaction, adoption, cost savings, or revenue.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 8,
     "edited": true
   },
   {
     "id": 9,
-    "prompt": "If the Product Owner is temporarily unavailable, what should the Developers do?",
+    "prompt": "The Product Owner becomes unexpectedly unavailable for one day during a Sprint. What should the Developers do?",
     "options": [
-      "Continue making the best decisions they can to progress toward the Sprint Goal, then realign with the Product Owner when available.",
-      "Stop work until the Product Owner returns.",
-      "Have management appoint a temporary Product Owner.",
-      "Ask the Product Owner's manager to make product decisions in the meantime."
+      "Pause all work because only the Product Owner can make any decision.",
+      "Continue self-managing toward the Sprint Goal using the best information available.",
+      "Ask senior management to become the temporary Product Owner.",
+      "Cancel the Sprint until the Product Owner returns."
     ],
     "correct": [
-      0
+      1
     ],
     "multi": false,
-    "explanation": "The Developers are self-managing and should continue making the best decisions possible in support of the Sprint Goal. Product Owner accountability is not automatically transferred to a manager or substitute.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Developers are self-managing. They should continue making decisions that support the Sprint Goal and collaborate with the Product Owner again when available.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 9,
     "edited": true
   },
   {
     "id": 10,
-    "prompt": "Which statements best describe how the Product Owner and Developers should work together?",
+    "prompt": "Which two collaboration patterns are most useful between a Product Owner and Developers?",
     "options": [
-      "They collaborate frequently so Developers can build with user and stakeholder concerns in mind.",
-      "They only need to interact during Sprint Planning and the Sprint Review.",
-      "The Product Owner should work beside the Developers full-time to understand all technical details.",
-      "They collaborate frequently so the Product Owner can make informed trade-offs involving effort and value.",
-      "They should remain separate so business and technology concerns do not mix."
+      "Developers share technical and effort implications so the Product Owner can make better trade-offs.",
+      "The Product Owner assigns daily tasks so work stays aligned with value.",
+      "They exchange context frequently so the team understands both product intent and implementation constraints.",
+      "They avoid discussing stakeholders because that is outside the Developers' concern.",
+      "They communicate only at formal Scrum events."
     ],
     "correct": [
       0,
-      3
+      2
     ],
     "multi": true,
-    "explanation": "Frequent collaboration helps Developers understand the value and intent behind Product Backlog items and helps the Product Owner make better product decisions as effort, scope, and learning change.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Frequent collaboration improves shared understanding. Developers contribute technical insight while the Product Owner contributes product context and value considerations.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 10,
     "edited": true
   },
   {
     "id": 11,
-    "prompt": "Which two statements best explain why the Definition of Done matters to the Product Owner?",
+    "prompt": "Why should a Product Owner care whether work meets the Definition of Done? Choose two.",
     "options": [
-      "It is mainly used by the Product Owner to track unfinished tasks during the Sprint.",
-      "It creates a shared quality standard for the Increment that will be inspected.",
-      "It creates transparency about what work is actually complete.",
-      "It identifies work that can be left unfinished and moved to another Sprint."
+      "It makes completeness and quality transparent when inspecting the Increment.",
+      "It allows unfinished work to be counted as value as long as coding is complete.",
+      "It affects the Product Owner's understanding of what is genuinely usable and what future cost may remain.",
+      "It gives the Product Owner authority to waive quality requirements when a deadline is near."
     ],
     "correct": [
-      1,
+      0,
       2
     ],
     "multi": true,
-    "explanation": "The Definition of Done creates transparency about quality and completeness. Work only contributes to a Done Increment when it meets that standard.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Definition of Done creates transparency about usable, complete work and quality. That matters to value decisions and to the product's future cost and risk.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 11,
     "edited": true
   },
   {
     "id": 12,
-    "prompt": "True or False: The Product Owner is essentially Scrum's version of a traditional Project Manager.",
+    "prompt": "An executive asks the Product Owner to take over scheduling people, assigning tasks, and tracking project milestones because 'that is the PO's job in Scrum.' What is the best response?",
     "options": [
-      "True",
-      "False"
+      "Agree; the Product Owner is Scrum's project manager.",
+      "Disagree; the Product Owner is accountable for maximizing product value and effective Product Backlog management, not traditional project command-and-control.",
+      "Agree only for Sprints shorter than two weeks.",
+      "Transfer those duties to the Scrum Master because the Scrum Master is the project manager."
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "A Product Owner is not a traditional Project Manager. The Product Owner is accountable for maximizing product value and effective Product Backlog management, while Scrum distributes other accountabilities across the Scrum Team.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Scrum does not define the Product Owner or Scrum Master as a traditional Project Manager. Product Owner accountability centers on value and Product Backlog management.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 12,
     "edited": true
   },
   {
     "id": 13,
-    "prompt": "During a Sprint, the Developers realize they probably cannot complete everything they originally forecast. What should the Product Owner do?",
+    "prompt": "Mid-Sprint, the Developers learn that the remaining selected work is larger than expected. The Sprint Goal is still valuable and achievable. What should happen?",
     "options": [
-      "Stop Product Backlog refinement for the rest of the Sprint.",
-      "Cancel the Sprint.",
-      "Work with the Developers to renegotiate selected scope while protecting the Sprint Goal.",
-      "Ask management to add more people.",
-      "Replace the Sprint Goal with an easier one."
+      "The Product Owner and Developers should discuss scope adjustments that preserve the Sprint Goal.",
+      "The Sprint must be canceled because the forecast changed.",
+      "The Developers must work overtime until every selected item is finished.",
+      "The Scrum Master should lower the Definition of Done for the Sprint."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "As more is learned during a Sprint, scope can be clarified and renegotiated between the Product Owner and Developers, provided the Sprint Goal is not endangered.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Sprint Backlog is a forecast and can adapt as more is learned. Scope may be renegotiated with the Product Owner as long as the Sprint Goal is protected.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 13,
     "edited": true
   },
   {
     "id": 14,
-    "prompt": "The Product Owner is accountable for Product Backlog management. Who is accountable for estimating the work needed for Product Backlog items?",
+    "prompt": "A Product Backlog item needs an estimate before the Product Owner can make a trade-off. Who owns the estimate of the work?",
     "options": [
-      "The Developers.",
-      "The Product Owner.",
-      "The Project Management Office (PMO)."
+      "The Developers who will do the work.",
+      "The Product Owner because the Product Owner orders the backlog.",
+      "The Scrum Master because estimates affect planning.",
+      "The stakeholder who requested the item."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "The Developers are responsible for sizing the work they will perform. Others may provide information, but the people doing the work make the estimate.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Developers are responsible for sizing the work. Others can provide information, but the people doing the work make the estimate.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 14,
     "edited": true
   },
   {
     "id": 15,
-    "prompt": "Which two practices most help a Product Owner manage and maximize product value?",
+    "prompt": "Which two practices give a Product Owner the strongest foundation for maximizing value over time?",
     "options": [
-      "Create a formula that produces an objective value score.",
-      "Validate assumptions about value through frequent releases and feedback.",
-      "Use Product Backlog ordering to direct attention toward the most valuable opportunities.",
-      "Assign a fixed value score to every item using Value Poker."
+      "Treat each value estimate as permanently correct once approved.",
+      "Use evidence from releases and feedback to test assumptions about value.",
+      "Continuously order future work based on what is currently most valuable.",
+      "Require a numerical value score for every Product Backlog item."
     ],
     "correct": [
       1,
       2
     ],
     "multi": true,
-    "explanation": "The Product Owner manages against assumptions about value. Product Backlog ordering helps focus investment, while releases and feedback provide evidence that can validate or challenge those assumptions.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Product value is managed through choices and learning. Backlog ordering focuses investment, while evidence from users and releases helps validate assumptions.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 15,
     "edited": true
   },
   {
     "id": 16,
-    "prompt": "Which activities are typical for a Product Owner during a Sprint?",
+    "prompt": "Which two activities are reasonable examples of Product Owner work during an active Sprint?",
     "options": [
-      "Collaborate with Developers on Product Backlog refinement.",
-      "Attend every Daily Scrum to answer questions about Sprint Backlog items.",
-      "Update the Developers' daily work plan.",
-      "Engage stakeholders, users, and subject-matter experts.",
-      "Prepare financial reports from the Scrum Team's recorded hours."
+      "Meet with users to learn about a newly emerging need.",
+      "Rewrite the Developers' Sprint Backlog every morning.",
+      "Collaborate with Developers to refine future Product Backlog items.",
+      "Approve each Developer's task before work begins.",
+      "Run the Daily Scrum and record individual status."
     ],
     "correct": [
       0,
-      3
+      2
     ],
     "multi": true,
-    "explanation": "Typical Product Owner work includes understanding stakeholders and collaborating with Developers on Product Backlog refinement. Scrum does not make the Product Owner a daily task manager.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Owner continues product discovery, stakeholder collaboration, and Product Backlog work during a Sprint. The Developers manage their own Sprint Backlog and Daily Scrum.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 16,
     "edited": true
   },
   {
     "id": 17,
-    "prompt": "Who is responsible for establishing the Definition of Done?",
+    "prompt": "A company has no organizational quality standard that applies to a new product. How should the Definition of Done be established?",
     "options": [
-      "The organization when it has an applicable standard; otherwise the Scrum Team creates one appropriate for the product.",
-      "The Scrum Master, because the Scrum Master is accountable for team productivity.",
-      "The Scrum Team only when all members merge their personal definitions into one.",
-      "The Product Owner, because the Product Owner is accountable for product success."
+      "The Product Owner writes it because the Product Owner owns product quality.",
+      "The Scrum Team creates a Definition of Done appropriate for the product.",
+      "Each Developer uses an individual standard.",
+      "The Scrum Master imports a standard from another team."
     ],
     "correct": [
-      0
+      1
     ],
     "multi": false,
-    "explanation": "If an organizational Definition of Done exists, Scrum Teams must follow it at least as a minimum. Otherwise, the Scrum Team creates a Definition of Done appropriate for the product.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "If no organizational Definition of Done applies, the Scrum Team creates one appropriate for the product.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 17,
     "edited": true
   },
   {
     "id": 18,
-    "prompt": "At what point may the Product Backlog be changed or updated?",
+    "prompt": "A competitor releases a new capability on Wednesday and the Product Owner learns something important. When may the Product Backlog be updated?",
     "options": [
-      "Only after the Sprint Review and only with stakeholder agreement.",
-      "Whenever needed, by the Product Owner or someone to whom the work has been delegated.",
-      "Only in a scheduled refinement session attended by the Product Owner.",
-      "Only after a formal change request is approved."
+      "Immediately, when the new information is useful.",
+      "Only after the current Sprint ends.",
+      "Only during the Sprint Review.",
+      "Only in a formally scheduled refinement meeting."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Product Backlog is dynamic and may change whenever needed. Work may be delegated, but accountability for effective Product Backlog management remains with the Product Owner.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Backlog is dynamic and can be updated whenever new learning makes an update useful.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 18,
     "edited": true
   },
   {
     "id": 19,
-    "prompt": "To support focus in Sprint Planning, which items are most important to have ready before planning begins?",
+    "prompt": "Which two conditions best help a Scrum Team begin Sprint Planning with useful focus?",
     "options": [
-      "A Product Goal that the Product Owner has clearly communicated.",
-      "A fully defined Sprint Goal that cannot be changed before Sprint Planning.",
-      "A Product Backlog in which every item has been completely refined.",
-      "A fixed schedule for the Daily Scrum.",
-      "A Product Backlog with the most important items ready to discuss.",
-      "Formal budget approval for another Sprint."
+      "The Product Goal is understood well enough to guide discussion.",
+      "Every Product Backlog item for the entire product is fully specified.",
+      "The most important Product Backlog items are understood well enough to discuss and select.",
+      "The Sprint Goal is written and approved before the event starts.",
+      "A manager has assigned each item to a Developer."
     ],
     "correct": [
       0,
-      4
+      2
     ],
     "multi": true,
-    "explanation": "Sprint Planning is collaborative. The Product Owner ensures attendees are prepared to discuss the most important Product Backlog items and how they relate to the Product Goal.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Sprint Planning benefits from a clear Product Goal and sufficiently understood high-order Product Backlog items. The Sprint Goal is created during Sprint Planning.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 19,
     "edited": true
   },
   {
     "id": 20,
-    "prompt": "How can an organization best determine whether a product developed with Scrum is successful?",
+    "prompt": "A product team wants to know whether its latest release was successful. Which measure would provide the strongest evidence?",
     "options": [
-      "Compare actual development hours with estimated hours.",
-      "Have the Product Owner and stakeholders formally accept the Increment at the Sprint Review.",
-      "Track whether velocity has increased since the last release.",
-      "Release frequently enough to gather evidence about the value customers actually receive."
+      "Whether customers use the capability and achieve the intended outcome.",
+      "Whether the team completed more story points than last Sprint.",
+      "Whether actual hours matched estimates.",
+      "Whether every planned scope item was delivered."
     ],
     "correct": [
-      3
+      0
     ],
     "multi": false,
-    "explanation": "Scrum enables frequent inspection and adaptation. Releasing to customers or users creates evidence about actual outcomes and value rather than relying only on internal activity measures.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Product success is best judged through outcomes and evidence of value, not internal activity measures such as velocity, hours, or scope completion alone.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 20,
     "edited": true
   },
   {
     "id": 21,
-    "prompt": "True or False: Stakeholder feedback should only be considered during the Sprint Review.",
+    "prompt": "A customer sends useful feedback two days after Sprint Planning. Must the Product Owner wait for the Sprint Review before considering it?",
     "options": [
-      "True",
-      "False"
+      "Yes",
+      "No"
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "Stakeholder feedback can be useful whenever it helps the Scrum Team or Product Owner make better decisions. The Sprint Review is an important formal opportunity for collaboration, but it is not the only time feedback can matter.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Sprint Review is an important feedback opportunity, but Scrum does not restrict stakeholder feedback to that event.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 21,
     "edited": true
   },
   {
     "id": 22,
-    "prompt": "True or False: Scrum requires the team to place at least one high-priority improvement from every Sprint Retrospective into the next Sprint Backlog.",
+    "prompt": "The Scrum Team identifies several improvement ideas in the Retrospective. Does Scrum require one of them to be placed in the next Sprint Backlog?",
     "options": [
-      "True",
-      "False"
+      "Yes",
+      "No"
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "The current Scrum Guide does not require the Scrum Team to place one Retrospective improvement into the next Sprint Backlog. Teams may still choose to do so when it is useful.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Scrum Guide does not mandate that a Retrospective improvement be added to the next Sprint Backlog. The team may choose to do so when useful.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 22,
     "edited": true
   },
   {
     "id": 23,
-    "prompt": "Which phrase most closely describes the Product Owner's accountability?",
+    "prompt": "Which description best captures the Product Owner's central accountability?",
     "options": [
-      "Value maximizer.",
-      "Chief business analyst.",
-      "Project Manager 2.0.",
-      "Requirements collector.",
-      "Scope protector."
+      "Maximize the value of the product resulting from the Scrum Team's work.",
+      "Protect the original project scope from change.",
+      "Write all requirements personally.",
+      "Approve technical designs before implementation."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Owner is accountable for maximizing product value and for effective Product Backlog management.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 23,
     "edited": true
   },
   {
     "id": 24,
-    "prompt": "How do Scrum timeboxes help the Product Owner and Scrum Team validate assumptions, adapt, and improve value?",
+    "prompt": "Why can short, fixed Scrum timeboxes improve product decisions?",
     "options": [
-      "Timeboxes guarantee the Developers will finish every forecast Sprint Backlog item.",
-      "Every timebox ends with a detailed report of all tests and results.",
-      "Timeboxes limit risk and create frequent opportunities to inspect evidence, validate assumptions, and decide whether to continue or adapt.",
-      "Timeboxes keep a Sprint open until testing is finished and the Product Owner approves the work."
+      "They prevent any change until the timebox ends.",
+      "They create frequent points to inspect evidence, reduce the period of unchecked risk, and adapt.",
+      "They guarantee that all forecast work will be completed.",
+      "They eliminate the need for forecasting."
     ],
     "correct": [
-      2
+      1
     ],
     "multi": false,
-    "explanation": "Short feedback cycles limit how long the Scrum Team can go without inspecting results. This creates frequent opportunities to learn from users, the market, and progress toward the Product Goal.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Timeboxes limit how long the team goes without inspection and adaptation, supporting faster learning and risk control.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 24,
     "edited": true
   },
   {
     "id": 25,
-    "prompt": "How can technical debt reduce the value a Product Owner is able to get from a product?",
+    "prompt": "Which two effects of technical debt can directly limit a Product Owner's ability to maximize value?",
     "options": [
-      "Technical debt can slow the rate at which new product capabilities are delivered.",
-      "Technical debt has no effect on the ability to deliver value.",
-      "Technical debt concerns only Developers and never affects Product Owner decisions.",
-      "Technical debt can consume more of the product budget through maintenance and remediation."
+      "It can make future changes slower and more expensive.",
+      "It automatically increases customer demand.",
+      "It can consume capacity and budget that could otherwise be invested in valuable outcomes.",
+      "It removes the need for a Definition of Done."
     ],
     "correct": [
       0,
-      3
+      2
     ],
     "multi": true,
-    "explanation": "Technical debt can reduce future delivery capacity and increase the cost of operating or changing the product. Those effects can directly limit the Product Owner's options for maximizing value.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Technical debt can increase maintenance cost and reduce the speed or flexibility with which the product can change.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 25,
     "edited": true
   },
   {
     "id": 26,
-    "prompt": "Should the Product Owner participate in the Sprint Retrospective?",
+    "prompt": "The Scrum Team is holding its Sprint Retrospective. Should the Product Owner normally participate?",
     "options": [
-      "No. The Product Owner attends only when invited by the Scrum Master.",
-      "Yes. The Product Owner is part of the Scrum Team, and the Retrospective is for the Scrum Team to inspect and improve how it works.",
-      "No. The Retrospective is only for Developers."
+      "Yes, because the Product Owner is a member of the Scrum Team.",
+      "No, because the Retrospective belongs only to Developers.",
+      "Only when stakeholders request it.",
+      "Only when the Scrum Master is absent."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Sprint Retrospective is a Scrum Team event focused on increasing quality and effectiveness, so the Product Owner participates as a member of the Scrum Team.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Sprint Retrospective is for the Scrum Team to inspect and improve quality and effectiveness, and the Product Owner is part of the Scrum Team.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 26,
     "edited": true
   },
   {
     "id": 27,
-    "prompt": "When considering Total Cost of Ownership (TCO), which costs should a Product Owner take into account?",
+    "prompt": "A Product Owner compares two product options using Total Cost of Ownership. What should be included?",
     "options": [
-      "The accumulated cost divided by the earned value of the product.",
-      "All investment needed to conceive, build, operate, and maintain the product over its life.",
-      "Only the money spent developing and releasing the product."
+      "Only initial development cost.",
+      "The broader lifetime investment needed to create, operate, support, change, and maintain the product.",
+      "Only costs incurred after the first release.",
+      "Only labor recorded by Developers."
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "Total Cost of Ownership considers the broader lifetime investment in a product, including development, operation, maintenance, and other costs needed to sustain it.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "Total Cost of Ownership considers costs across the product's life, not just its initial development.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 27,
     "edited": true
   },
   {
     "id": 28,
-    "prompt": "What is the Product Owner ultimately accountable for in Scrum?",
+    "prompt": "A stakeholder says the Product Owner's main job is to make sure every requested feature is delivered. What is the more accurate accountability?",
     "options": [
-      "Refining the highest Product Backlog items until they can be handed off to the Scrum Team.",
-      "Writing complete User Stories for stakeholders.",
-      "Defining the exact Increment in Sprint Planning and ensuring Developers deliver it.",
-      "Maximizing the value of the product resulting from the Scrum Team's work."
+      "Maximize the value of the product resulting from the Scrum Team's work.",
+      "Guarantee delivery of every stakeholder request.",
+      "Personally create every Product Backlog item.",
+      "Direct Developers' daily work."
     ],
     "correct": [
-      3
+      0
     ],
     "multi": false,
-    "explanation": "The Product Owner is accountable for maximizing product value and for effective Product Backlog management, including the Product Goal, Product Backlog items, ordering, and transparency. Work may be delegated, but accountability remains with the Product Owner.",
-    "source": "Concept adapted from Scrum.org-style practice",
+    "explanation": "The Product Owner is accountable for maximizing product value, which may require saying no, changing direction, or learning rather than delivering every request.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 28,
     "edited": true
   },
   {
     "id": 29,
-    "prompt": "Who is accountable for making sure the Product Backlog is sufficiently refined for upcoming work?",
+    "prompt": "The Scrum Team expects several high-order Product Backlog items to be discussed soon. Who remains accountable for effective Product Backlog management so that this work is sufficiently understandable?",
     "options": [
-      "Stakeholders.",
-      "The Business Analyst.",
-      "The Developers.",
-      "The Product Owner."
-    ],
-    "correct": [
-      3
-    ],
-    "multi": false,
-    "explanation": "The Product Owner is accountable for effective Product Backlog management, which includes making sure the backlog is sufficiently refined. In practice, the Scrum Team collaborates on refinement.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 3,
-    "edited": true
-  },
-  {
-    "id": 30,
-    "prompt": "Which statement best describes Product Backlog refinement?",
-    "options": [
-      "An ongoing activity in which the Product Owner and Developers work together.",
-      "A formal Scrum event.",
-      "A responsibility handled only by the Product Owner.",
-      "An activity performed once per Sprint."
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "Product Backlog refinement is ongoing work to break down and further define Product Backlog items. The Product Owner and Developers commonly collaborate on it.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 4,
-    "edited": true
-  },
-  {
-    "id": 31,
-    "prompt": "True or False: The Product Owner must create the Sprint Goal before Sprint Planning starts.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "The Sprint Goal is created during Sprint Planning through collaboration by the entire Scrum Team; it is not something the Product Owner must create beforehand.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 5,
-    "edited": true
-  },
-  {
-    "id": 32,
-    "prompt": "Which of the following are common attributes of Product Backlog items?",
-    "options": [
-      "Velocity, risk, and ownership.",
-      "Description, order, and size.",
-      "Commitment, courage, focus, openness, and respect.",
-      "Complexity, agility, openness, and commitment."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "Product Backlog items commonly include attributes such as a description, order, and size, although the exact attributes can vary with the domain.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 6,
-    "edited": true
-  },
-  {
-    "id": 33,
-    "prompt": "What is the primary purpose of the Sprint Review?",
-    "options": [
-      "Inspect the outcome of the Sprint and determine possible future adaptations.",
-      "Present both Done and nearly finished work to stakeholders.",
-      "Review the overall project status.",
-      "List what was completed and what was not."
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "The Sprint Review is held to inspect the outcome of the Sprint and determine future adaptations. It is a working session, not merely a status presentation.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 7,
-    "edited": true
-  },
-  {
-    "id": 34,
-    "prompt": "Which option correctly lists the maximum timeboxes for Scrum events in a one-month Sprint?",
-    "options": [
-      "Sprint Planning: up to 8 hours; Sprint Review: up to 4 hours; Sprint Retrospective: up to 3 hours; Daily Scrum: 15 minutes.",
-      "Sprint Planning: up to 8 hours; Sprint Review: up to 3 hours; Sprint Retrospective: up to 4 hours; Daily Scrum: 15 minutes.",
-      "Sprint Planning: up to 4 hours; Sprint Review: up to 8 hours; Sprint Retrospective: up to 3 hours; Daily Scrum: 30 minutes.",
-      "Sprint Planning: up to 8 hours; Sprint Review: up to 4 hours; Sprint Retrospective: up to 4 hours; Daily Scrum: 15 minutes."
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "For a one-month Sprint, Sprint Planning is timeboxed to a maximum of eight hours, Sprint Review to four hours, Sprint Retrospective to three hours, and the Daily Scrum to 15 minutes.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 8,
-    "edited": true
-  },
-  {
-    "id": 35,
-    "prompt": "Which statement about the Product Owner is correct?",
-    "options": [
-      "A committee.",
-      "One person."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "The Product Owner is one person, not a committee. The Product Owner may represent the needs of many stakeholders but remains a single accountability.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 9,
-    "edited": true
-  },
-  {
-    "id": 36,
-    "prompt": "For the Sprint Review to inspect a usable outcome, when should a Done Increment be available?",
-    "options": [
-      "Only before a planned release.",
-      "Only after user acceptance testing is complete.",
-      "Every second Sprint.",
-      "Only when requested by the Scrum Master or Product Owner.",
-      "By the Sprint Review as part of the Sprint's usable outcome."
-    ],
-    "correct": [
-      4
-    ],
-    "multi": false,
-    "explanation": "A Sprint should produce a usable Increment that meets the Definition of Done. The Sprint Review inspects the outcome of the Sprint; it is not a gate that makes the Increment exist.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 10,
-    "edited": true
-  },
-  {
-    "id": 37,
-    "prompt": "True or False: Scrum requires the Product Owner to use a burn-down chart to track progress.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "Burn-down charts are an optional complementary practice. Scrum does not require the Product Owner to use one.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 11,
-    "edited": true
-  },
-  {
-    "id": 38,
-    "prompt": "True or False: A service can be considered a product.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "A product can be a service, a physical product, or something more abstract.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 12,
-    "edited": true
-  },
-  {
-    "id": 39,
-    "prompt": "True or False: Someone from Human Resources could be a stakeholder for a product.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "A stakeholder can come from any area that has an interest in or is affected by the product, including Human Resources when relevant.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 13,
-    "edited": true
-  },
-  {
-    "id": 40,
-    "prompt": "Which of the following could be relevant outcomes a Product Owner tries to improve when maximizing value? Select all that apply.",
-    "options": [
-      "Customer satisfaction.",
-      "Adoption of the latest product version.",
-      "Return on investment.",
-      "Employee satisfaction."
-    ],
-    "correct": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "multi": true,
-    "explanation": "Value is context-dependent. Depending on the product and organization, any of these outcomes could matter when evaluating whether value is being created.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 14,
-    "edited": true
-  },
-  {
-    "id": 41,
-    "prompt": "True or False: The Product Owner personally owns and creates the Definition of Done.",
-    "options": [
-      "TRUE",
-      "FALSE"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "The Product Owner does not personally create the Definition of Done by default. If there is no organizational standard, the Scrum Team creates a Definition of Done appropriate for the product.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 16,
-    "edited": true
-  },
-  {
-    "id": 42,
-    "prompt": "When may members of the Scrum Team interact with stakeholders?",
-    "options": [
-      "Only during the Sprint Retrospective.",
-      "Only during the Daily Scrum.",
-      "Only during the Sprint Review.",
-      "Whenever interaction will help the Scrum Team create or deliver value."
-    ],
-    "correct": [
-      3
-    ],
-    "multi": false,
-    "explanation": "Scrum does not prohibit useful stakeholder interaction outside the Sprint Review. The Scrum Team can collaborate with stakeholders whenever doing so is helpful.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 17,
-    "edited": true
-  },
-  {
-    "id": 43,
-    "prompt": "Who remains accountable for what is included in the Product Backlog?",
-    "options": [
-      "The Scrum Master.",
-      "The Product Owner.",
-      "The Developers.",
-      "The stakeholders."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "The Product Owner is accountable for effective Product Backlog management, including what is represented in the Product Backlog.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 18,
-    "edited": true
-  },
-  {
-    "id": 44,
-    "prompt": "Which option best describes the Product Goal?",
-    "options": [
-      "A daily target the team must achieve.",
-      "The immediate objective for Developers in the current Sprint.",
-      "A long-term objective for the Scrum Team to achieve.",
-      "A summary of the project's overall scope."
-    ],
-    "correct": [
-      2
-    ],
-    "multi": false,
-    "explanation": "The Product Goal describes a future state of the product and serves as the Scrum Team's long-term objective.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 19,
-    "edited": true
-  },
-  {
-    "id": 45,
-    "prompt": "Who is accountable for developing and clearly communicating the Product Goal?",
-    "options": [
-      "The Developers.",
       "The Product Owner.",
       "The Scrum Master.",
-      "The Scrum Team as a whole."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "The Product Owner is accountable for developing and explicitly communicating the Product Goal.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 20,
-    "edited": true
-  },
-  {
-    "id": 46,
-    "prompt": "True or False: A Product Backlog is never considered permanently complete while the product exists.",
-    "options": [
-      "True — while the product exists, the Product Backlog continues to evolve.",
-      "False — the entire Product Backlog should be completed before the first Sprint."
+      "A Business Analyst.",
+      "The stakeholder who requested each item."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "The Product Backlog is emergent. As long as the product exists, new learning and changing needs can cause the backlog to evolve.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 21,
-    "edited": true
-  },
-  {
-    "id": 47,
-    "prompt": "True or False: The whole Scrum Team is accountable for creating a valuable, useful Increment each Sprint.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "The Scrum Team as a whole is accountable for creating a valuable, useful Increment every Sprint.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 22,
-    "edited": true
-  },
-  {
-    "id": 48,
-    "prompt": "True or False: Stakeholders are prohibited from speaking directly with Developers during a Sprint.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "Stakeholders and Developers may interact during a Sprint when that collaboration is useful. Scrum does not impose a blanket prohibition on direct communication.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 23,
-    "edited": true
-  },
-  {
-    "id": 49,
-    "prompt": "True or False: The Product Owner may delegate the creation of Product Backlog items to Developers.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "The Product Owner may delegate Product Backlog management work, including drafting items, while remaining accountable for the result.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 24,
-    "edited": true
-  },
-  {
-    "id": 50,
-    "prompt": "During a Sprint, Developers ask for more detail about a Product Backlog item. How should the Product Owner respond?",
-    "options": [
-      "Send the Developers to the Scrum Master for clarification.",
-      "Tell the Developers to determine the meaning on their own.",
-      "Wait until the next Sprint Planning event to clarify the item.",
-      "Provide the clarification or help the Developers get the information they need."
-    ],
-    "correct": [
-      3
-    ],
-    "multi": false,
-    "explanation": "The Product Owner should help ensure Product Backlog items are understood well enough for the work at hand. Clarification can happen during the Sprint when it helps avoid waste or misunderstanding.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 26,
-    "edited": true
-  },
-  {
-    "id": 51,
-    "prompt": "True or False: Feedback from stakeholders during the Sprint Review may lead the Product Owner to reorder the Product Backlog.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "At the Sprint Review, the Scrum Team and stakeholders inspect the outcome and changes in the environment. New information may lead to adjustments in the Product Backlog, including its order.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 27,
-    "edited": true
-  },
-  {
-    "id": 52,
-    "prompt": "Why is an ordered Product Backlog more useful than simply assigning broad priority labels?",
-    "options": [
-      "An ordered backlog provides a clear sequence even when several items might otherwise share the same priority.",
-      "Ordering is simply better than having no structure.",
-      "Ordering and priority always mean exactly the same thing.",
-      "Scrum requires both a separate priority value and an order."
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "An ordered Product Backlog communicates a sequence for consideration and work. Broad priority labels can leave ties or ambiguity, while an ordered list makes the relative position of items explicit.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 28,
-    "edited": true
-  },
-  {
-    "id": 53,
-    "prompt": "True or False: Scrum requires a formal demonstration of the Increment during every Sprint Review.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      0
-    ],
-    "multi": false,
-    "explanation": "A demonstration may be useful, but Scrum does not require a formal demo. The Sprint Review is a working session for inspecting the outcome and deciding what to do next.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The Product Owner is accountable for effective Product Backlog management, while refinement is commonly collaborative work with the Developers.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 29,
     "edited": true
   },
   {
-    "id": 54,
-    "prompt": "True or False: During Sprint Planning, the Product Owner must make sure enough Product Backlog items are selected to satisfy stakeholders.",
+    "id": 30,
+    "prompt": "A team schedules refinement whenever it is useful instead of treating it as a formal meeting. Is that consistent with Scrum?",
     "options": [
-      "True",
-      "False"
+      "Yes. Refinement is ongoing activity rather than a required Scrum event.",
+      "No. Refinement must be a formal event once per Sprint.",
+      "No. Only the Product Owner may refine the Product Backlog.",
+      "Yes, but only if the Scrum Master facilitates every session."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Developers select the Product Backlog items they believe they can accomplish in the Sprint after discussion with the Product Owner. The Product Owner does not force a quantity to satisfy stakeholders.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Product Backlog refinement is an ongoing activity used to break down and further define items; Scrum does not prescribe it as a formal event.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 30,
     "edited": true
   },
   {
-    "id": 55,
-    "prompt": "The Sprint Backlog is best described as a plan by and for which accountability?",
+    "id": 31,
+    "prompt": "The Product Owner arrives at Sprint Planning with a suggested objective for the Sprint. Who creates the actual Sprint Goal?",
     "options": [
-      "The Scrum Master.",
-      "The Scrum Team.",
-      "The Developers.",
-      "The Product Owner."
+      "The Scrum Team collaboratively during Sprint Planning.",
+      "The Product Owner alone before Sprint Planning.",
+      "The Scrum Master after Sprint Planning.",
+      "The Developers after the Sprint begins."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "The Sprint Backlog is a plan by and for the Developers. They create and adapt it as they work toward the Sprint Goal.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The Sprint Goal is created through collaboration by the Scrum Team during Sprint Planning.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 31,
     "edited": true
   },
   {
-    "id": 56,
-    "prompt": "When is it appropriate for the Product Owner to give Developers feedback on work in progress?",
+    "id": 32,
+    "prompt": "Which set contains examples of information a Product Backlog item may have as it is refined?",
     "options": [
-      "Only during the Sprint Review.",
-      "Whenever feedback can reduce waste or improve the outcome.",
-      "Only during Product Backlog refinement.",
-      "Only during the Daily Scrum."
+      "Description, relative order, and size.",
+      "Velocity, team rank, and release approval.",
+      "Project phase, department owner, and utilization target.",
+      "Courage, focus, and openness."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Feedback is most useful when it can influence decisions before unnecessary work is done. Scrum does not restrict Product Owner feedback to a single event.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Product Backlog items may include attributes such as a description, order, and size, with details varying by product and context.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 32,
     "edited": true
   },
   {
-    "id": 57,
-    "prompt": "True or False: Understanding the product's marketplace can help a Product Owner maximize value.",
+    "id": 33,
+    "prompt": "Stakeholders gather at the end of a Sprint. Which purpose best describes the Sprint Review?",
     "options": [
-      "False",
-      "True"
+      "Inspect the Sprint's outcome and collaborate on what may be valuable to do next.",
+      "Approve or reject the Increment before it can be released.",
+      "Evaluate individual Developer performance.",
+      "Finalize the next Sprint Backlog."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Understanding customers, competitors, market conditions, and other external factors can help the Product Owner make better value decisions.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The Sprint Review is a working session to inspect the outcome and determine future adaptations with stakeholders.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 33,
+    "edited": true
+  },
+  {
+    "id": 34,
+    "prompt": "For a one-month Sprint, which event timeboxes are correct?",
+    "options": [
+      "Planning 8 hours; Review 4 hours; Retrospective 3 hours; Daily Scrum 15 minutes.",
+      "Planning 4 hours; Review 4 hours; Retrospective 4 hours; Daily Scrum 30 minutes.",
+      "Planning 8 hours; Review 3 hours; Retrospective 4 hours; Daily Scrum 15 minutes.",
+      "Planning 8 hours; Review 8 hours; Retrospective 3 hours; Daily Scrum 30 minutes."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "For a one-month Sprint, the maximums are eight hours for Sprint Planning, four hours for Sprint Review, three hours for Sprint Retrospective, and 15 minutes for the Daily Scrum.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 34,
     "edited": true
   },
   {
-    "id": 58,
-    "prompt": "Which two areas of awareness can help a Product Owner make better value decisions?",
+    "id": 35,
+    "prompt": "A department wants three people to jointly hold the Product Owner accountability for one product. Is that Scrum?",
     "options": [
-      "Unit-test results.",
-      "Scrum Team velocity.",
-      "Customer feedback.",
-      "Product vision."
+      "No. The Product Owner is one person, though that person may represent many stakeholders.",
+      "Yes. Product Ownership is designed to be a committee accountability."
     ],
     "correct": [
-      2,
-      3
+      0
     ],
-    "multi": true,
-    "explanation": "Customer feedback can provide evidence about value, and a Product Vision can help guide product direction. Velocity and unit-test results may be useful for other purposes but do not directly define product value.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "multi": false,
+    "explanation": "The Product Owner is one person, not a committee.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 35,
     "edited": true
   },
   {
-    "id": 59,
-    "prompt": "What does the older term 'Product Backlog grooming' refer to today?",
+    "id": 36,
+    "prompt": "The Sprint Review is tomorrow. What must be true of work that is presented as part of the usable Increment?",
     "options": [
-      "A required Scrum event.",
-      "Rewriting backlog items solely to make them shorter.",
-      "The older term that was replaced by Product Backlog refinement.",
-      "A software-only form of refinement."
-    ],
-    "correct": [
-      2
-    ],
-    "multi": false,
-    "explanation": "The older term 'grooming' was replaced by 'refinement.' Product Backlog refinement is an ongoing activity, not a required separate Scrum event.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 36,
-    "edited": true
-  },
-  {
-    "id": 60,
-    "prompt": "Why can clear Acceptance Criteria be useful for a Product Backlog item?",
-    "options": [
-      "They make it easier for the Scrum Master to manage the team.",
-      "They identify exactly who will test the work.",
-      "They allow the Product Owner to change the Sprint Goal during the Sprint.",
-      "They can create a shared understanding of what the item is expected to accomplish."
-    ],
-    "correct": [
-      3
-    ],
-    "multi": false,
-    "explanation": "Acceptance Criteria are not required by Scrum, but teams may use them to clarify expectations and create a shared understanding of a Product Backlog item.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 37,
-    "edited": true
-  },
-  {
-    "id": 61,
-    "prompt": "When can Product Backlog refinement take place?",
-    "options": [
-      "Only during Sprint Planning.",
-      "Only immediately before the Sprint Review.",
-      "Whenever refinement is useful and needed.",
-      "Only after Sprint Planning ends."
-    ],
-    "correct": [
-      2
-    ],
-    "multi": false,
-    "explanation": "Product Backlog refinement is an ongoing activity and can happen whenever it is useful.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 38,
-    "edited": true
-  },
-  {
-    "id": 62,
-    "prompt": "True or False: A Scrum Team works toward one Product Goal at a time.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "A Scrum Team focuses on one Product Goal at a time. A new Product Goal is taken on after the current one is fulfilled or abandoned.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 39,
-    "edited": true
-  },
-  {
-    "id": 63,
-    "prompt": "In Scrum, what does it mean when a Product Backlog item is Done?",
-    "options": [
-      "Every task originally identified for the item has been completed.",
-      "The work meets the Definition of Done with no remaining work needed to satisfy that standard.",
-      "The item is ready to enter user acceptance testing.",
-      "The entire feature or release is complete."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "A Product Backlog item is Done when it meets the Definition of Done. Meeting that standard means it can contribute to a usable Increment.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 40,
-    "edited": true
-  },
-  {
-    "id": 64,
-    "prompt": "True or False: Sprints can help a Scrum Team limit work in progress.",
-    "options": [
-      "False",
-      "True"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "A Sprint creates a bounded planning horizon. The Scrum Team plans a limited amount of work for the Sprint and adapts as it learns.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 41,
-    "edited": true
-  },
-  {
-    "id": 65,
-    "prompt": "Which artifact is the Product Owner accountable for effectively managing?",
-    "options": [
-      "The Developers.",
-      "The Scrum Team.",
-      "The project.",
-      "The Product Backlog."
-    ],
-    "correct": [
-      3
-    ],
-    "multi": false,
-    "explanation": "The Product Owner is accountable for effective Product Backlog management, not for managing the Developers or the Scrum Team.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 42,
-    "edited": true
-  },
-  {
-    "id": 66,
-    "prompt": "True or False: Scrum requires a release at the end of every Sprint.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "A Done Increment may be released whenever it makes sense. Scrum does not require a release at the end of every Sprint, and the Sprint Review is not a release gate.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 43,
-    "edited": true
-  },
-  {
-    "id": 67,
-    "prompt": "Which practice conflicts with Scrum's expectation that each Sprint produce a Done, usable Increment?",
-    "options": [
-      "Refactoring.",
-      "A planned hardening Sprint used to make earlier work truly Done.",
-      "Release planning.",
-      "Tracking velocity for local forecasting."
-    ],
-    "correct": [
-      1
-    ],
-    "multi": false,
-    "explanation": "Each Sprint should produce a usable Increment that meets the Definition of Done. Relying on a later hardening Sprint means earlier work was not actually Done when it was claimed to be.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 44,
-    "edited": true
-  },
-  {
-    "id": 68,
-    "prompt": "True or False: Ordering can be part of Product Backlog refinement.",
-    "options": [
-      "True",
-      "False"
+      "It meets the Definition of Done.",
+      "It has been approved by every stakeholder.",
+      "It has been released to production.",
+      "It has no remaining ideas for improvement."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "Refinement can include adding detail, breaking items down, sizing them, and adjusting their order as the Product Backlog evolves.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 45,
+    "explanation": "Work contributes to a usable Increment when it meets the Definition of Done. The Sprint Review is not an approval gate or a release requirement.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 36,
     "edited": true
   },
   {
-    "id": 69,
-    "prompt": "What formal role does the Product Owner have in the Daily Scrum?",
+    "id": 37,
+    "prompt": "A Product Owner prefers a cumulative flow diagram instead of a burn-down chart. Does Scrum require changing to a burn-down chart?",
     "options": [
-      "Assign tasks to Developers for the day.",
-      "Lead discussion about Product Backlog changes.",
-      "The Product Owner has no defined accountability in the Daily Scrum unless participating as a Developer.",
-      "Track the Developers' progress toward the Sprint Goal."
+      "Yes",
+      "No"
     ],
     "correct": [
-      2
+      1
     ],
     "multi": false,
-    "explanation": "The Daily Scrum is for the Developers. A Product Owner may attend, and if actively working on Sprint Backlog items, participates as a Developer rather than directing the event.",
-    "source": "Concept adapted from TheScrumMaster practice",
-    "source_num": 48,
+    "explanation": "Scrum does not require a particular progress chart. Burn-down charts are optional complementary practices.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 37,
     "edited": true
   },
   {
-    "id": 70,
-    "prompt": "Which activities are included in effective Product Backlog management? Select all that apply.",
+    "id": 38,
+    "prompt": "A company offers an online tax-filing service rather than a physical item. Can Scrum still treat that offering as a product?",
     "options": [
-      "Creating and clearly communicating Product Backlog items.",
-      "Ordering Product Backlog items.",
-      "Developing and explicitly communicating the Product Goal.",
-      "Making sure the Product Backlog is transparent, visible, and understood."
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A product can be a service, a physical product, or something more abstract.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 38,
+    "edited": true
+  },
+  {
+    "id": 39,
+    "prompt": "The internal recruiting team is affected by a new employee-onboarding product. Could someone from recruiting be a stakeholder?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Stakeholders can come from any group with an interest in, influence on, or impact from the product.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 39,
+    "edited": true
+  },
+  {
+    "id": 40,
+    "prompt": "Which outcomes could matter when a Product Owner evaluates product value? Select all that apply.",
+    "options": [
+      "Improved customer satisfaction.",
+      "Greater adoption of a desired product version.",
+      "Improved return on investment.",
+      "Improved employee experience for an internal product."
     ],
     "correct": [
       0,
@@ -1228,253 +714,777 @@
       3
     ],
     "multi": true,
-    "explanation": "Effective Product Backlog management includes the Product Goal, clear Product Backlog items, ordering, and transparency. The Product Owner remains accountable even when some of this work is delegated.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Value depends on product context. Any of these outcomes could be relevant evidence of value.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 40,
+    "edited": true
+  },
+  {
+    "id": 41,
+    "prompt": "An organization has no applicable Definition of Done. Can the Product Owner simply define it alone and impose it on the team?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "When no organizational standard applies, the Scrum Team creates a Definition of Done appropriate for the product.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 41,
+    "edited": true
+  },
+  {
+    "id": 42,
+    "prompt": "A Developer wants to speak directly with a customer during the Sprint to clarify an important usability assumption. Is that allowed?",
+    "options": [
+      "Yes, when the interaction helps the Scrum Team create value.",
+      "No, Developers may speak with stakeholders only at the Sprint Review.",
+      "Only if the Product Owner is unavailable.",
+      "Only if the Scrum Master conducts the conversation."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum does not prohibit useful stakeholder interaction during the Sprint.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 42,
+    "edited": true
+  },
+  {
+    "id": 43,
+    "prompt": "Several people contribute ideas and draft Product Backlog items. Who still holds accountability for effective Product Backlog management?",
+    "options": [
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The Developers as a group.",
+      "The stakeholder who contributed the most items."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Work may be delegated, but the Product Owner remains accountable for effective Product Backlog management.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 43,
+    "edited": true
+  },
+  {
+    "id": 44,
+    "prompt": "Which statement best characterizes a Product Goal?",
+    "options": [
+      "It describes a future state of the product that gives the Scrum Team a long-term objective.",
+      "It is the list of items selected for the current Sprint.",
+      "It is a daily target for the Developers.",
+      "It is a fixed project scope that cannot change."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Goal describes a future state of the product and serves as the Scrum Team's long-term objective.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 44,
+    "edited": true
+  },
+  {
+    "id": 45,
+    "prompt": "Who is accountable for making the Product Goal explicit and understandable?",
+    "options": [
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The Developers.",
+      "The most senior stakeholder."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Owner is accountable for developing and explicitly communicating the Product Goal.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 45,
+    "edited": true
+  },
+  {
+    "id": 46,
+    "prompt": "A product has just begun and only the highest-value opportunities are well understood. Must the Product Backlog already contain all future work?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "The Product Backlog is emergent. It evolves as new needs, ideas, risks, and learning appear.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 46,
+    "edited": true
+  },
+  {
+    "id": 47,
+    "prompt": "Who shares accountability for creating a valuable, useful Increment every Sprint?",
+    "options": [
+      "The Scrum Team as a whole.",
+      "Only the Product Owner.",
+      "Only the Developers.",
+      "Only the Scrum Master."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 47,
+    "edited": true
+  },
+  {
+    "id": 48,
+    "prompt": "A stakeholder and Developer collaborate directly during a Sprint to test an assumption. Does Scrum forbid this direct interaction?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Scrum does not prohibit direct stakeholder-Developer collaboration when it helps create value.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 48,
+    "edited": true
+  },
+  {
+    "id": 49,
+    "prompt": "The Product Owner asks two Developers to draft candidate Product Backlog items after a customer interview. Is this delegation allowed?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Owner may delegate Product Backlog management work while remaining accountable for the result.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 49,
     "edited": true
   },
   {
-    "id": 71,
-    "prompt": "A company has two distinct products. Which statement about Product Owner accountability is acceptable in Scrum?",
+    "id": 50,
+    "prompt": "Developers discover that a selected item has an ambiguous business rule. What is the most useful Product Owner response?",
     "options": [
-      "One Product Owner should always be supported by a Junior Product Owner.",
-      "One Product Owner must be accountable for every product in the organization.",
-      "Scrum requires a Chief Product Owner plus a separate Product Owner for each product.",
-      "Each product has one accountable Product Owner; the same person could potentially serve more than one product if that arrangement remains effective."
+      "Help clarify the intent or connect the Developers with the right source of information.",
+      "Wait until the next Sprint Planning event.",
+      "Tell Developers to choose any interpretation without discussion.",
+      "Require the Scrum Master to decide the business rule."
     ],
     "correct": [
-      3
+      0
     ],
     "multi": false,
-    "explanation": "Scrum defines the Product Owner as one person accountable for a Product Backlog. Each product needs clear Product Owner accountability, but Scrum does not require a different human being for every product.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Clarifying uncertainty when it matters can reduce waste and support the Sprint Goal.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 50,
     "edited": true
   },
   {
-    "id": 72,
-    "prompt": "True or False: Before the first Sprint begins, the Product Backlog must already contain every item that will ever be developed.",
+    "id": 51,
+    "prompt": "During a Sprint Review, stakeholders reveal a major change in customer behavior. May the Product Owner change the Product Backlog order afterward?",
     "options": [
-      "False",
-      "True"
+      "Yes",
+      "No"
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "In complex work, the Product Backlog is emergent. It does not need to contain every future requirement before the first Sprint begins.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The Product Backlog can adapt to new information, including evidence discovered at the Sprint Review.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 51,
     "edited": true
   },
   {
-    "id": 73,
-    "prompt": "True or False: A belief about product value remains an assumption until evidence from customers or users helps validate it.",
+    "id": 52,
+    "prompt": "Why can a fully ordered Product Backlog communicate more clearly than a few broad labels such as 'high,' 'medium,' and 'low'?",
     "options": [
-      "False",
-      "True"
+      "Ordering expresses relative sequence even when many items would share the same broad label.",
+      "Scrum requires both a numerical priority and a separate order.",
+      "Priority labels are forbidden by Scrum.",
+      "Ordering guarantees that higher items will be implemented next."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Ideas about value are hypotheses until evidence from customers, users, or the market helps validate or challenge them.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "An ordered list makes relative position explicit and avoids ambiguity among items that might otherwise have the same priority label.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 52,
     "edited": true
   },
   {
-    "id": 74,
-    "prompt": "True or False: The Definition of Done is relevant during Sprint Planning when the Developers forecast what they can complete.",
+    "id": 53,
+    "prompt": "A team chooses to run the Sprint Review as a collaborative working session without a formal slide-by-slide demo. Is that allowed?",
     "options": [
-      "True",
-      "False"
+      "Yes",
+      "No"
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "Developers need to understand the Definition of Done when forecasting what they can complete because selected work must meet that quality standard to become part of a Done Increment.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Scrum does not require a formal demonstration. The Sprint Review is a working session for inspection and adaptation.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 53,
     "edited": true
   },
   {
-    "id": 75,
-    "prompt": "What may happen if the Sprint Goal becomes obsolete?",
+    "id": 54,
+    "prompt": "During Sprint Planning, who decides how much Product Backlog work the Developers forecast they can complete?",
     "options": [
-      "The Product Owner may cancel the Sprint.",
-      "The Developers decide independently whether the Sprint continues.",
-      "The Sprint must continue exactly as planned.",
-      "The Scrum Master, Product Owner, and Developers vote on what to do."
+      "The Developers, after collaborating with the Product Owner and considering the Sprint Goal.",
+      "The Product Owner, based on stakeholder demand.",
+      "The Scrum Master, based on historical velocity.",
+      "Management, based on utilization targets."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "Only the Product Owner has the authority to cancel a Sprint, and a Sprint may be canceled if its Sprint Goal becomes obsolete.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Developers select the work they believe they can complete, informed by discussion with the Product Owner, the Definition of Done, capacity, and past performance.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 54,
     "edited": true
   },
   {
-    "id": 76,
-    "prompt": "Who is accountable for ordering the Product Backlog so the most important work is clear?",
+    "id": 55,
+    "prompt": "Who creates and continually adapts the Sprint Backlog as a plan for achieving the Sprint Goal?",
     "options": [
+      "The Developers.",
+      "The Product Owner.",
       "The Scrum Master.",
-      "The Project Manager.",
-      "The executive leadership team.",
-      "The Product Owner."
+      "Stakeholders."
     ],
     "correct": [
-      3
+      0
     ],
     "multi": false,
-    "explanation": "The Product Owner is accountable for ordering the Product Backlog. Developers remain self-managing and decide how to turn selected items into a Done Increment.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The Sprint Backlog is a plan by and for the Developers.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 55,
+    "edited": true
+  },
+  {
+    "id": 56,
+    "prompt": "The Product Owner notices a misunderstanding in work that is still being built. When should feedback be given?",
+    "options": [
+      "As soon as useful feedback can reduce waste or improve the outcome.",
+      "Only at the Sprint Review.",
+      "Only at the next refinement session.",
+      "Only after the Increment is released."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Fast feedback can prevent unnecessary work. Scrum does not restrict Product Owner feedback to a formal event.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 56,
     "edited": true
   },
   {
-    "id": 77,
-    "prompt": "Which description best matches Evidence-Based Management (EBM)?",
+    "id": 57,
+    "prompt": "Can knowledge of competitors, customer alternatives, and market conditions help a Product Owner make value decisions?",
     "options": [
-      "A framework organizations can use to measure, manage, and improve the value they get from product delivery.",
-      "A mandatory practice that every Product Owner using Scrum must apply.",
-      "A fixed methodology for increasing product value.",
-      "A control system that guarantees maximum value delivery."
+      "Yes",
+      "No"
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "Evidence-Based Management is a framework for helping organizations measure, manage, and improve the value they derive from product delivery. It is not a mandatory part of Scrum.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "Understanding the marketplace can help the Product Owner make better decisions about value and product direction.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 57,
+    "edited": true
+  },
+  {
+    "id": 58,
+    "prompt": "A Product Owner is evaluating whether to invest in a new capability. Which two inputs are most directly useful for product-value decisions?",
+    "options": [
+      "Evidence from customers and users.",
+      "The team's story-point velocity by itself.",
+      "The product's intended direction and vision.",
+      "The number of unit tests written last Sprint."
+    ],
+    "correct": [
+      0,
+      2
+    ],
+    "multi": true,
+    "explanation": "Customer evidence and product direction are directly relevant to value decisions. Delivery metrics and test counts may be useful, but do not define product value by themselves.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 58,
     "edited": true
   },
   {
-    "id": 78,
-    "prompt": "True or False: During Sprint Planning, the Product Owner should assign stretch goals to the Developers.",
+    "id": 59,
+    "prompt": "A colleague uses the older phrase 'backlog grooming.' What Scrum activity are they most likely referring to?",
     "options": [
-      "False",
-      "True"
+      "Product Backlog refinement.",
+      "Sprint Planning.",
+      "Sprint Review.",
+      "A mandatory backlog-cleanup event."
     ],
     "correct": [
       0
     ],
     "multi": false,
-    "explanation": "Sprint Planning should produce a realistic forecast and Sprint Goal through collaboration. The Product Owner does not assign stretch goals to Developers.",
-    "source": "Concept adapted from TheScrumMaster practice",
+    "explanation": "The older term 'grooming' was replaced by 'refinement.' Refinement is ongoing activity, not a required event.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 59,
     "edited": true
   },
   {
-    "id": 79,
-    "prompt": "Scrum is founded on which two concepts?",
+    "id": 60,
+    "prompt": "A team uses Acceptance Criteria on some Product Backlog items. What is a useful purpose of those criteria?",
     "options": [
-      "Predictive planning and risk management",
-      "Empiricism and lean thinking",
-      "Continuous delivery and DevOps",
-      "Product management and project management"
+      "Create shared understanding of the expected behavior or outcome of the item.",
+      "Replace the Definition of Done.",
+      "Assign testing responsibility to one Developer.",
+      "Make the item eligible for Sprint Planning under a Scrum rule."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Acceptance Criteria are optional practices that can clarify expectations. They do not replace the Definition of Done and are not required by Scrum.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 60,
+    "edited": true
+  },
+  {
+    "id": 61,
+    "prompt": "The Scrum Team wants to refine Product Backlog items in short conversations throughout the week. Is that compatible with Scrum?",
+    "options": [
+      "Yes. Refinement can occur whenever it is useful.",
+      "No. Refinement is permitted only once per Sprint.",
+      "No. Refinement can happen only during Sprint Planning.",
+      "Yes, but only if the Scrum Master schedules each conversation."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Product Backlog refinement is ongoing and can happen whenever useful.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 61,
+    "edited": true
+  },
+  {
+    "id": 62,
+    "prompt": "A Scrum Team has not yet achieved its current Product Goal but discovers another attractive idea. What is the normal focus?",
+    "options": [
+      "Continue focusing on one Product Goal at a time unless the current goal is fulfilled or abandoned.",
+      "Adopt both Product Goals simultaneously.",
+      "Create one Product Goal per Developer.",
+      "Replace Product Goals with Sprint Goals."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A Scrum Team focuses on one Product Goal at a time. A new Product Goal is taken on after the current one is fulfilled or abandoned.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 62,
+    "edited": true
+  },
+  {
+    "id": 63,
+    "prompt": "A selected Product Backlog item has all originally listed tasks completed, but one requirement in the Definition of Done is still unmet. Is the item Done?",
+    "options": [
+      "Yes",
+      "No"
     ],
     "correct": [
       1
     ],
     "multi": false,
-    "explanation": "Scrum is founded on empiricism and lean thinking. Empiricism asserts that knowledge comes from experience and decisions are based on what is observed; lean thinking reduces waste and focuses on essentials.",
-    "source": "Original PSPO I expansion set",
-    "source_num": 79,
-    "edited": false
+    "explanation": "An item is Done only when it meets the Definition of Done. Completing a task list is not enough if the quality standard is unmet.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 63,
+    "edited": true
   },
   {
-    "id": 80,
-    "prompt": "Which are the five Scrum Values? (Choose five)",
+    "id": 64,
+    "prompt": "Do Sprints create a bounded planning horizon that can help the Scrum Team limit the amount of work it takes on at once?",
     "options": [
-      "Commitment",
-      "Focus",
-      "Transparency",
-      "Openness",
-      "Respect",
-      "Courage",
-      "Adaptation"
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A Sprint creates a fixed planning horizon and supports focus on a limited body of work toward a Sprint Goal.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 64,
+    "edited": true
+  },
+  {
+    "id": 65,
+    "prompt": "Which Scrum artifact is the Product Owner accountable for effectively managing?",
+    "options": [
+      "The Product Backlog.",
+      "The Sprint Backlog.",
+      "The Increment.",
+      "The organizational roadmap."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Owner is accountable for effective Product Backlog management.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 65,
+    "edited": true
+  },
+  {
+    "id": 66,
+    "prompt": "A Done Increment is valuable today, but the organization chooses to release it next week. Does Scrum require a release at the end of every Sprint?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "A Done Increment may be released whenever it makes sense. The Sprint Review is not a release gate, and release at Sprint end is not mandatory.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 66,
+    "edited": true
+  },
+  {
+    "id": 67,
+    "prompt": "Which approach is least compatible with Scrum's expectation of a usable Increment each Sprint?",
+    "options": [
+      "Regular refactoring while maintaining the Definition of Done.",
+      "Planning a later 'hardening Sprint' to finish testing and integration for earlier Sprints.",
+      "Releasing only when business timing makes sense.",
+      "Using delivery data for local forecasting."
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "If earlier work requires a later hardening Sprint to become truly complete, it did not meet the Definition of Done in those earlier Sprints.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 67,
+    "edited": true
+  },
+  {
+    "id": 68,
+    "prompt": "While refining the Product Backlog, the Product Owner learns that one item has become much more valuable. Can its relative order change as part of refinement?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Refinement can include adding detail, breaking down items, sizing, and changing order as the Product Backlog evolves.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 68,
+    "edited": true
+  },
+  {
+    "id": 69,
+    "prompt": "The Product Owner attends a Daily Scrum but is not doing Sprint Backlog work as a Developer. What formal role does Scrum give the Product Owner in that event?",
+    "options": [
+      "No defined role; the Daily Scrum is for Developers.",
+      "Facilitator who chooses the discussion format.",
+      "Task manager who assigns the day's work.",
+      "Status collector for stakeholders."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Daily Scrum is for Developers. A Product Owner who is not participating as a Developer has no formal accountability in the event.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 69,
+    "edited": true
+  },
+  {
+    "id": 70,
+    "prompt": "Which activities fall within effective Product Backlog management? Select all that apply.",
+    "options": [
+      "Develop and clearly communicate the Product Goal.",
+      "Create and clearly communicate Product Backlog items.",
+      "Order Product Backlog items.",
+      "Ensure the Product Backlog is transparent, visible, and understood."
     ],
     "correct": [
       0,
       1,
-      3,
+      2,
+      3
+    ],
+    "multi": true,
+    "explanation": "These are the Product Owner accountabilities for effective Product Backlog management. The work may be delegated, but accountability remains with the Product Owner.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 70,
+    "edited": true
+  },
+  {
+    "id": 71,
+    "prompt": "One experienced person is asked to act as Product Owner for two small, unrelated products. What does Scrum say?",
+    "options": [
+      "It can be acceptable if each product still has clear Product Owner accountability and the arrangement remains effective.",
+      "It is forbidden; Scrum requires a different person for every product.",
+      "It is allowed only if both products share one Product Backlog.",
+      "It requires a Chief Product Owner above both products."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum requires one accountable Product Owner for a product, but it does not prohibit the same person from serving more than one product if effective.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 71,
+    "edited": true
+  },
+  {
+    "id": 72,
+    "prompt": "Before the first Sprint, the team knows only the first few valuable opportunities and expects more learning later. Can Sprinting begin without a complete lifetime requirements list?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Backlog is emergent. Scrum does not require every future requirement to be known before the first Sprint.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 72,
+    "edited": true
+  },
+  {
+    "id": 73,
+    "prompt": "A Product Owner believes a new feature will increase retention, but no users have tried it yet. How should that belief be treated?",
+    "options": [
+      "As a hypothesis that still needs evidence.",
+      "As proven value because it came from the Product Owner.",
+      "As a commitment that cannot be changed during the Product Goal.",
+      "As irrelevant until the Sprint Review."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "A belief about value remains an assumption until evidence from customers, users, or the market validates or challenges it.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 73,
+    "edited": true
+  },
+  {
+    "id": 74,
+    "prompt": "When Developers forecast what they can finish in a Sprint, should the Definition of Done influence that forecast?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Developers need to consider the work required to meet the Definition of Done when deciding what they can realistically complete.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 74,
+    "edited": true
+  },
+  {
+    "id": 75,
+    "prompt": "A sudden legal change makes the Sprint Goal no longer useful. Who has the authority to cancel the Sprint?",
+    "options": [
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The Developers by majority vote.",
+      "The highest-ranking stakeholder."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Only the Product Owner has the authority to cancel a Sprint, and cancellation may be appropriate if the Sprint Goal becomes obsolete.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 75,
+    "edited": true
+  },
+  {
+    "id": 76,
+    "prompt": "A stakeholder asks who decides the relative order of work in the Product Backlog. What is the best answer?",
+    "options": [
+      "The Product Owner is accountable for the ordering.",
+      "The Scrum Master decides based on impediments.",
+      "Developers decide based only on architecture.",
+      "Senior management votes on the order."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "The Product Owner is accountable for ordering Product Backlog items.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 76,
+    "edited": true
+  },
+  {
+    "id": 77,
+    "prompt": "What is Evidence-Based Management (EBM) best understood as?",
+    "options": [
+      "A framework that helps organizations measure, manage, and improve the value they obtain from product delivery.",
+      "A mandatory part of Scrum that every Product Owner must use.",
+      "A fixed recipe that guarantees product-market fit.",
+      "A replacement for the Product Backlog."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "EBM is a framework for improving value through evidence. It is not a mandatory component of Scrum.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 77,
+    "edited": true
+  },
+  {
+    "id": 78,
+    "prompt": "During Sprint Planning, a Product Owner proposes extra 'stretch' work and tells the Developers they must commit to it. Is that consistent with Scrum?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": [
+      1
+    ],
+    "multi": false,
+    "explanation": "Developers create a realistic forecast through collaboration. The Product Owner does not assign stretch goals or force extra work into the Sprint.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 78,
+    "edited": true
+  },
+  {
+    "id": 79,
+    "prompt": "Which pair describes the foundation on which Scrum is built?",
+    "options": [
+      "Empiricism and lean thinking.",
+      "Predictive planning and earned value management.",
+      "DevOps and continuous delivery.",
+      "Waterfall planning and change control."
+    ],
+    "correct": [
+      0
+    ],
+    "multi": false,
+    "explanation": "Scrum is founded on empiricism and lean thinking.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 79,
+    "edited": true
+  },
+  {
+    "id": 80,
+    "prompt": "Which five words are Scrum Values? Select five.",
+    "options": [
+      "Focus",
+      "Courage",
+      "Respect",
+      "Transparency",
+      "Openness",
+      "Commitment",
+      "Inspection"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
       4,
       5
     ],
     "multi": true,
-    "explanation": "The five Scrum Values are Commitment, Focus, Openness, Respect, and Courage. Transparency and Adaptation are pillars of empiricism, not Scrum Values.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The five Scrum Values are Commitment, Focus, Openness, Respect, and Courage. Transparency and Inspection are pillars of empiricism.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 80,
-    "edited": false
+    "edited": true
   },
   {
     "id": 81,
-    "prompt": "A Product Owner makes decisions using a Product Backlog that does not accurately reflect the current state of the product. What is the biggest concern?",
+    "prompt": "A Product Backlog still reflects assumptions from six months ago even though the market has changed. What is the primary risk?",
     "options": [
-      "The Developers will estimate incorrectly.",
-      "Low transparency can lead to decisions that reduce value and increase risk.",
-      "The Sprint must be canceled.",
-      "The Scrum Master must take ownership of the Product Backlog."
+      "Decisions made from the artifact may be poor because the artifact lacks transparency about current reality.",
+      "The Scrum Master automatically becomes accountable for the Product Backlog.",
+      "The current Sprint must be canceled.",
+      "Developers are no longer allowed to estimate."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Scrum relies on transparency so inspection and adaptation are meaningful. If the Product Backlog does not reflect reality, decisions based on it can be flawed and risk increases.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Scrum depends on transparent artifacts so inspection is meaningful. Outdated information can lead to poor adaptation and value decisions.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 81,
-    "edited": false
+    "edited": true
   },
   {
     "id": 82,
-    "prompt": "Which statement best describes the structure of a Scrum Team?",
+    "prompt": "Which description best matches a Scrum Team's internal structure?",
     "options": [
-      "It contains separate business and technical sub-teams.",
-      "The Product Owner manages the Developers while the Scrum Master manages the process.",
-      "It has no sub-teams or hierarchies and is focused on one objective at a time.",
-      "Developers report to the Product Owner during the Sprint."
+      "A cohesive unit without sub-teams or internal hierarchies, focused on one objective at a time.",
+      "A business sub-team led by the Product Owner and a technical sub-team led by the Scrum Master.",
+      "A set of specialist groups that hand work off between one another.",
+      "A hierarchy in which Developers report to the Product Owner during the Sprint."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Within a Scrum Team there are no sub-teams or hierarchies. It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "A Scrum Team has no sub-teams or hierarchies and is focused on one objective at a time, the Product Goal.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 82,
-    "edited": false
+    "edited": true
   },
   {
     "id": 83,
-    "prompt": "What does it mean for a Scrum Team to be cross-functional?",
+    "prompt": "A Scrum Team needs to build, test, integrate, and operate the product without relying on another team for every Increment. What characteristic does this describe?",
     "options": [
-      "Every team member must be capable of doing every type of work.",
-      "The team collectively has all the skills necessary to create value each Sprint.",
-      "The team must include representatives from every department.",
-      "Developers must rotate jobs every Sprint."
+      "Cross-functionality.",
+      "Functional specialization.",
+      "Project governance.",
+      "Resource utilization."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Cross-functional means the Scrum Team collectively has all the skills necessary to create value each Sprint. It does not require every individual to possess every skill.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "A cross-functional Scrum Team has the skills needed to create value each Sprint without depending on outside specialist teams for every step.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 83,
-    "edited": false
+    "edited": true
   },
   {
     "id": 84,
-    "prompt": "Which activities can fall within the Scrum Team's responsibility? (Choose three)",
+    "prompt": "Which three kinds of work may reasonably belong within a Scrum Team when needed to create a valuable product? Select three.",
     "options": [
-      "Stakeholder collaboration",
-      "Product operation and maintenance",
-      "Experimentation and research",
-      "Only writing and testing product features",
-      "Approving individual employee promotions"
+      "Product discovery and stakeholder collaboration.",
+      "Design, engineering, testing, or other work needed for the Increment.",
+      "Product operation or maintenance work when it is part of creating product value.",
+      "Formal approval of every business decision by a Project Management Office.",
+      "Assigning individual utilization targets to Developers."
     ],
     "correct": [
       0,
@@ -1482,38 +1492,38 @@
       2
     ],
     "multi": true,
-    "explanation": "The Scrum Team is responsible for all product-related activities, which can include stakeholder collaboration, verification, maintenance, operation, experimentation, research and development, and anything else required.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Scrum Teams are cross-functional and include whatever skills are needed to create value, rather than being limited to a narrow job category.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 84,
-    "edited": false
+    "edited": true
   },
   {
     "id": 85,
-    "prompt": "What is the Scrum Master accountable for regarding the Scrum Team?",
+    "prompt": "Developers ask the Scrum Master to decide how they should divide their work. What should the Scrum Master encourage?",
     "options": [
-      "Maximizing the value of the product",
-      "The Scrum Team's effectiveness",
-      "Approving the Sprint Backlog",
-      "Assigning Developers to Product Backlog items"
+      "Support the Developers in self-managing and choosing how to organize their work.",
+      "Assign each person a daily task list.",
+      "Ask the Product Owner to create the work assignments.",
+      "Escalate the decision to line management."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide and for the Scrum Team's effectiveness.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The Scrum Master helps the Scrum Team become more effective and supports self-management rather than taking over task assignment.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 85,
-    "edited": false
+    "edited": true
   },
   {
     "id": 86,
-    "prompt": "How can the Scrum Master serve the Product Owner? (Choose three)",
+    "prompt": "Which three actions are examples of a Scrum Master serving the Product Owner? Select three.",
     "options": [
-      "Help find techniques for effective Product Goal definition and Product Backlog management.",
-      "Establish empirical product planning for a complex environment.",
-      "Facilitate stakeholder collaboration when needed.",
-      "Make Product Backlog ordering decisions when stakeholders disagree.",
-      "Approve the Product Owner's release strategy."
+      "Help establish techniques for effective Product Goal definition and Product Backlog management.",
+      "Help the Scrum Team understand the need for clear and concise Product Backlog items.",
+      "Facilitate stakeholder collaboration when requested or needed.",
+      "Choose the Product Backlog order when stakeholders disagree.",
+      "Approve the Product Owner's release decisions."
     ],
     "correct": [
       0,
@@ -1521,588 +1531,584 @@
       2
     ],
     "multi": true,
-    "explanation": "The Scrum Master serves the Product Owner by helping with Product Goal and Product Backlog management techniques, empirical product planning, and stakeholder collaboration when requested or needed. Accountability for ordering remains with the Product Owner.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The Scrum Master coaches and facilitates Product Ownership practices and stakeholder collaboration, but does not take over Product Owner accountability.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 86,
-    "edited": false
+    "edited": true
   },
   {
     "id": 87,
-    "prompt": "Can people outside the Scrum Team attend Sprint Planning?",
+    "prompt": "A security expert who is not on the Scrum Team has information needed during Sprint Planning. May the Scrum Team invite that person for advice?",
     "options": [
-      "No. Sprint Planning is restricted to the Scrum Team.",
-      "Yes. The Scrum Team may invite others to provide advice.",
-      "Yes, but only executives.",
-      "Only if the Scrum Master cannot attend."
+      "Yes",
+      "No"
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Scrum Team may invite other people to attend Sprint Planning to provide advice.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The Scrum Team may invite other people to Sprint Planning to provide advice when useful.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 87,
-    "edited": false
+    "edited": true
   },
   {
     "id": 88,
-    "prompt": "When must the Sprint Goal be finalized?",
+    "prompt": "By what point must the Scrum Team have a Sprint Goal?",
     "options": [
-      "Before Sprint Planning begins",
-      "Before the end of Sprint Planning",
-      "Before the first Daily Scrum",
-      "At the Sprint Review"
+      "Before Sprint Planning ends.",
+      "Before Sprint Planning starts.",
+      "By the first Daily Scrum.",
+      "By the Sprint Review."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The whole Scrum Team collaborates to define a Sprint Goal during Sprint Planning, and it must be finalized before the end of Sprint Planning.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The Sprint Goal is created during Sprint Planning and should be finalized before the event concludes.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 88,
-    "edited": false
+    "edited": true
   },
   {
     "id": 89,
-    "prompt": "The Product Owner is personally working on an item in the Sprint Backlog. How should they participate in the Daily Scrum?",
+    "prompt": "The Product Owner is also doing hands-on development work from the Sprint Backlog. How should the Product Owner take part in the Daily Scrum?",
     "options": [
-      "As the Product Owner, directing the meeting",
-      "As a stakeholder",
-      "As a Developer",
-      "They are prohibited from attending"
+      "As a Developer for the Sprint Backlog work they are performing.",
+      "As the meeting chair because they are Product Owner.",
+      "As the person who approves changes to the Developers' plan.",
+      "They may not attend under any circumstances."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "If the Product Owner or Scrum Master is actively working on items in the Sprint Backlog, they participate in the Daily Scrum as Developers.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "When the Product Owner is actively working on Sprint Backlog items, they participate in the Daily Scrum as a Developer.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 89,
-    "edited": false
+    "edited": true
   },
   {
     "id": 90,
-    "prompt": "True or False: The Daily Scrum is the only time during the day that Developers are allowed to adjust the Sprint Backlog.",
+    "prompt": "Developers discover new information at 2 p.m. after the Daily Scrum. May they adapt the Sprint Backlog before tomorrow's Daily Scrum?",
     "options": [
-      "True",
-      "False"
+      "Yes",
+      "No"
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Daily Scrum is not the only time Developers may adjust their plan. They can meet and adapt the Sprint Backlog throughout the day as needed.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "The Sprint Backlog is adapted throughout the Sprint as more is learned. The Daily Scrum is not the only time adaptation may occur.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 90,
-    "edited": false
+    "edited": true
   },
   {
     "id": 91,
-    "prompt": "When is a Product Backlog item generally considered sufficiently ready for selection during Sprint Planning?",
+    "prompt": "A high-order Product Backlog item is being considered for the next Sprint. What is the most important readiness test?",
     "options": [
-      "When the Product Owner has written detailed acceptance criteria",
-      "When it can be Done by the Scrum Team within one Sprint",
-      "When stakeholders formally approve it",
-      "When its estimate is below eight story points"
+      "The Developers understand it well enough to discuss, size, and make a reasonable forecast about completing it to the Definition of Done.",
+      "It has a mandatory template containing complete Acceptance Criteria.",
+      "The Product Owner has assigned it to a specific Developer.",
+      "Every stakeholder has approved the wording."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for selection in Sprint Planning. Scrum does not require a specific acceptance-criteria format or story-point threshold.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Scrum does not define a mandatory 'ready' checklist. High-order items should be sufficiently understood for selection and completion within a Sprint.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 91,
-    "edited": false
+    "edited": true
   },
   {
     "id": 92,
-    "prompt": "Which TWO statements about an Increment are true? (Choose two)",
+    "prompt": "Which two statements about a Scrum Increment are correct? Choose two.",
     "options": [
-      "It must be usable in order to provide value.",
-      "It replaces all previous Increments.",
-      "It is additive to prior Increments and must work together with them.",
-      "It only becomes an Increment after the Sprint Review."
+      "It must meet the Definition of Done to be part of the Increment.",
+      "Multiple Increments may be created within a Sprint.",
+      "It exists only after the Sprint Review accepts it.",
+      "It must be released to customers before the Sprint ends."
     ],
     "correct": [
       0,
-      2
+      1
     ],
     "multi": true,
-    "explanation": "An Increment is a concrete stepping stone toward the Product Goal. Each Increment is additive to all prior Increments, thoroughly verified so they work together, and must be usable in order to provide value.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "An Increment is usable and meets the Definition of Done. More than one Increment may be created in a Sprint, and release is not tied to Sprint Review approval.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 92,
-    "edited": false
+    "edited": true
   },
   {
     "id": 93,
-    "prompt": "Why does the Scrum Guide encourage working at a sustainable pace?",
+    "prompt": "Why is a sustainable working pace useful in Scrum?",
     "options": [
-      "To maximize utilization of every team member",
-      "To improve the Scrum Team's focus and consistency",
-      "To guarantee all forecast work is completed",
-      "To increase velocity every Sprint"
+      "It supports consistent focus and quality over time rather than relying on repeated unsustainable bursts.",
+      "It guarantees a constant velocity.",
+      "It allows the Sprint Goal to be skipped when the team is tired.",
+      "It eliminates uncertainty from forecasting."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Sprints enable predictability and a sustainable pace, which improves the Scrum Team's focus and consistency. Sustainable pace is not about maximizing utilization or guaranteeing forecasts.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "A sustainable pace supports consistent focus and quality and reduces the risk of short-term overwork undermining future effectiveness.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 93,
-    "edited": false
+    "edited": true
   },
   {
     "id": 94,
-    "prompt": "Which statement about Product Vision is most accurate?",
+    "prompt": "Which statement best describes a Product Vision?",
     "options": [
-      "Scrum requires the Scrum Master to create it.",
-      "The Product Owner owns it, while its development benefits from input from stakeholders and the Scrum Team.",
-      "It must remain unchanged throughout the life of the product.",
-      "It is the same thing as the Sprint Goal."
+      "It is a guiding picture of the product's desired future that can help align decisions, though Scrum does not prescribe a specific vision artifact.",
+      "It is the same thing as the Sprint Goal.",
+      "It is a mandatory Scrum artifact with a fixed template.",
+      "It is a complete list of all features the product will contain."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Product Vision is a product-management concept that helps communicate purpose and direction. The Product Owner is accountable for product direction and should develop the vision with useful input from stakeholders and the Scrum Team.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "A Product Vision can guide direction and alignment, but it is not a formal Scrum artifact and Scrum does not prescribe a template.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 94,
-    "edited": false
+    "edited": true
   },
   {
     "id": 95,
-    "prompt": "What is the relationship between Business Strategy and Product Vision?",
+    "prompt": "How should a product's vision relate to broader business strategy?",
     "options": [
-      "Product Vision determines the organization's entire business strategy.",
-      "They are unrelated because Scrum only concerns product development.",
-      "Business Strategy provides context and guardrails within which the Product Vision operates.",
-      "Product Vision replaces Business Strategy once Scrum begins."
+      "The vision should help translate strategic direction into an understandable product direction and may evolve as strategy changes.",
+      "They should remain unrelated so the Product Owner can act independently.",
+      "Business strategy must be rewritten as the Sprint Goal.",
+      "Product Vision replaces business strategy once Scrum begins."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Business Strategy gives the broader context, goals, constraints, and choices that guide product direction. Product Vision should align with and support that strategy.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Product direction should be informed by business strategy while remaining adaptable as evidence and strategy evolve.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 95,
-    "edited": false
+    "edited": true
   },
   {
     "id": 96,
-    "prompt": "A Product Owner tells stakeholders: 'Based on our historical throughput, we forecast this capability for November.' Which statement is most accurate?",
+    "prompt": "After several Sprints, a stakeholder asks when a large capability is likely to be available. What is the most responsible response?",
     "options": [
-      "The forecast should be treated as a commitment.",
-      "A forecast can help create alignment and manage expectations, but it is not a guarantee.",
-      "Scrum prohibits forecasting dates.",
-      "Only the Scrum Master can communicate forecasts."
+      "Offer a forecast based on current evidence and historical delivery while clearly communicating uncertainty.",
+      "Promise an exact date because historical data removes uncertainty.",
+      "Refuse to discuss dates because Scrum prohibits forecasting.",
+      "Use the highest historical velocity to produce the earliest possible date."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Forecasts are useful for transparency and decision-making, but complex work contains uncertainty. A forecast should be updated as more evidence is learned rather than treated as a guarantee.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Scrum supports forecasting, but forecasts are not guarantees. Historical evidence can inform a range or expectation while uncertainty should remain visible.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 96,
-    "edited": false
+    "edited": true
   },
   {
     "id": 97,
-    "prompt": "Which release strategy is most consistent with managing products with agility?",
+    "prompt": "Which release approach is most consistent with agile product management?",
     "options": [
-      "Delay release until every planned feature is complete.",
-      "Prefer small, incremental, frequent releases that allow learning and value delivery.",
-      "Release exactly once per Sprint.",
-      "Release only after stakeholders formally accept the product."
+      "Release Done value when doing so helps achieve product outcomes, rather than waiting for an arbitrary project phase.",
+      "Release only at the end of a fixed multi-month project plan.",
+      "Release every Sprint regardless of risk, market timing, or value.",
+      "Release only after the Sprint Review formally approves the Increment."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Small and frequent releases can reduce risk, deliver value earlier, and create more opportunities to validate assumptions and learn from customers and users. Scrum does not require a release every Sprint.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "A Done Increment can be released whenever it makes sense. Release decisions should support product value and context, not an arbitrary gate.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 97,
-    "edited": false
+    "edited": true
   },
   {
     "id": 98,
-    "prompt": "An organization releases several Product Increments and discovers that its assumptions about the market were wrong. What should happen to the Business Strategy?",
+    "prompt": "Several releases produce evidence that an important market assumption behind the product is wrong. What should leadership and the Product Owner consider?",
     "options": [
-      "Nothing. Business Strategy should remain fixed for predictability.",
-      "Only the Product Backlog should change.",
-      "The organization should inspect the evidence and adapt its Business Strategy when appropriate.",
-      "The Product Owner should independently rewrite the company's strategy."
+      "Adapt product and possibly business strategy based on the evidence.",
+      "Ignore the evidence until the original roadmap is complete.",
+      "Increase velocity so the original strategy can be delivered faster.",
+      "Freeze the Product Backlog to protect prior investment."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Empirical product management applies learning beyond the backlog. When market evidence invalidates strategic assumptions, the organization should inspect that evidence and adapt strategy when appropriate.",
-    "source": "Original PSPO I expansion set",
+    "explanation": "Empirical product management uses evidence to adapt. If market assumptions are disproven, strategy and product direction may need to change.",
+    "source": "Original practice question based on public Scrum concepts",
     "source_num": 98,
-    "edited": false
+    "edited": true
   },
   {
     "id": 99,
-    "prompt": "Halfway through several months of development, new market information suggests the current Product Goal is no longer worth pursuing. What is the best response?",
+    "prompt": "A Product Goal was created around entering a market segment, but reliable new evidence shows that segment is no longer viable. What is the best product response?",
     "options": [
-      "Continue until every Product Backlog item associated with the goal is completed.",
-      "The Product Owner may abandon the current Product Goal and establish a new one.",
-      "The Developers decide whether the Product Goal should change.",
-      "Wait until the current release is completed before changing direction."
+      "Reconsider and, if appropriate, abandon the current Product Goal before pursuing a different one.",
+      "Continue until every related Product Backlog item is completed because goals cannot change.",
+      "Create a second Product Goal and pursue both simultaneously.",
+      "Keep the Product Goal but lower the Definition of Done to finish sooner."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "A Product Goal can be abandoned when it is no longer valuable. The Scrum Team should not keep building simply because work was previously planned.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 1,
-    "edited": false
+    "explanation": "A Product Goal can be abandoned when evidence shows it is no longer valuable. The Scrum Team focuses on one Product Goal at a time.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 99,
+    "edited": true
   },
   {
     "id": 100,
-    "prompt": "Three Scrum Teams work on the same product. Each team currently uses a different Definition of Done. What should happen?",
+    "prompt": "Several Scrum Teams contribute to one product, but their quality standards produce incompatible Increments. What change best supports a single integrated product?",
     "options": [
-      "Each team should maintain its own Definition of Done because they are self-managing.",
-      "The Product Owner chooses which team's Definition of Done becomes mandatory.",
-      "The teams should mutually define and comply with the same Definition of Done for the product.",
-      "Each team may use a different Definition of Done as long as their velocity is similar."
+      "Use one shared Definition of Done for the product that all contributing Scrum Teams follow.",
+      "Keep separate Definitions of Done so each team can optimize locally.",
+      "Let the Product Owner decide which team's Definition of Done applies after each Sprint.",
+      "Create a final integration team to make all work Done later."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Multiple Scrum Teams working on the same product should mutually define and comply with the same Definition of Done.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 2,
-    "edited": false
+    "explanation": "When multiple Scrum Teams work on one product, they should share the same Definition of Done so their work can integrate into one usable product Increment.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 100,
+    "edited": true
   },
   {
     "id": 101,
-    "prompt": "A Product Owner asks a business analyst to perform much of the day-to-day Product Backlog ordering. Who remains accountable for effective Product Backlog management?",
+    "prompt": "The Product Owner asks a product analyst to maintain item wording and propose ordering changes. Who is still accountable for effective Product Backlog management?",
     "options": [
-      "The business analyst.",
       "The Product Owner.",
+      "The product analyst.",
       "The Scrum Master.",
-      "The entire Scrum Team equally."
+      "The Developers."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Product Owner may delegate Product Backlog management work, but accountability remains with the Product Owner.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 3,
-    "edited": false
+    "explanation": "The Product Owner may delegate Product Backlog management work, but accountability cannot be delegated.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 101,
+    "edited": true
   },
   {
     "id": 102,
-    "prompt": "A customer identifies an urgent opportunity three days into the Sprint. The Product Owner believes it may be more valuable than some work currently planned. What is the best approach?",
+    "prompt": "Two days into a Sprint, a newly discovered customer problem appears more valuable than some selected work. The Sprint Goal remains relevant. What is the best next step?",
     "options": [
-      "The Product Owner immediately replaces items in the Sprint Backlog.",
-      "Wait until the next Sprint because the Sprint Backlog cannot change.",
-      "The Product Owner and Developers discuss the request and may renegotiate scope without endangering the Sprint Goal.",
-      "Cancel the Sprint whenever a higher-value request appears."
+      "The Product Owner and Developers discuss whether the new information changes Sprint scope while keeping the Sprint Goal intact.",
+      "The Product Owner unilaterally inserts the new work and removes whatever they choose from the Sprint Backlog.",
+      "The Scrum Master decides whether the new request is important enough.",
+      "Ignore the information until the next Sprint because Sprint scope can never change."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Scope may be renegotiated during the Sprint as more is learned, provided the Sprint Goal is not endangered.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 4,
-    "edited": false
+    "explanation": "During a Sprint, scope may be clarified and renegotiated as more is learned, provided the Sprint Goal is not endangered. The Developers own the Sprint Backlog.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 102,
+    "edited": true
   },
   {
     "id": 103,
-    "prompt": "The Developers finish a valuable Increment halfway through a Sprint. It meets the Definition of Done and the Product Owner wants customers to receive it immediately. What does Scrum require?",
+    "prompt": "A Done Increment is available several days before the Sprint ends and releasing it now would create useful customer learning. What does Scrum allow?",
     "options": [
-      "Wait for the Sprint Review before releasing it.",
-      "Wait until every item in the Sprint Backlog is Done.",
-      "It may be released before the Sprint Review.",
-      "The Scrum Master must approve an early release."
+      "It may be released before the Sprint ends; release does not need to wait for the Sprint Review.",
+      "It must remain unreleased until the Sprint Review.",
+      "It can be released only if the Scrum Master approves.",
+      "Releasing it automatically ends the Sprint."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "The Sprint Review is not a release gate. A Done Increment may be delivered before the Sprint ends.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 5,
-    "edited": false
+    "explanation": "A Done Increment may be delivered to stakeholders or customers before the Sprint ends. The Sprint Review is not a release gate.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 103,
+    "edited": true
   },
   {
     "id": 104,
-    "prompt": "A company has three major strategic outcomes it wants a product to achieve. How should Product Goals normally be handled?",
+    "prompt": "A product has several strategic outcomes it may pursue over the next year. How should the Scrum Team use Product Goals?",
     "options": [
-      "All three should become simultaneous Product Goals.",
-      "The Product Backlog may have only one Product Goal at a time; it is fulfilled or abandoned before the next is taken on.",
-      "Each Developer chooses which Product Goal to support.",
-      "Product Goals are optional if the organization already has a roadmap."
+      "Select one Product Goal to focus on at a time, then fulfill or abandon it before taking on another.",
+      "Create one active Product Goal for each strategic outcome.",
+      "Assign a separate Product Goal to each Developer.",
+      "Replace Product Goals with a single fixed project scope."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "There is one Product Goal at a time. It is fulfilled or abandoned before the Scrum Team takes on another.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 6,
-    "edited": false
+    "explanation": "The Scrum Team focuses on one Product Goal at a time.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 104,
+    "edited": true
   },
   {
     "id": 105,
-    "prompt": "During Sprint Planning, the Product Owner strongly prefers a particular technical design for an important Product Backlog item. Who determines how the selected work will be implemented?",
+    "prompt": "During Sprint Planning, the Product Owner suggests a specific architecture for a selected item. Who decides how the work will actually be built?",
     "options": [
-      "Product Owner.",
-      "Scrum Master.",
-      "Developers.",
-      "Stakeholders."
+      "The Developers.",
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The stakeholder who funded the feature."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "The Developers determine how selected Product Backlog items are turned into an Increment of value.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 7,
-    "edited": false
+    "explanation": "Developers are self-managing and decide how to turn selected Product Backlog items into a Done Increment.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 105,
+    "edited": true
   },
   {
     "id": 106,
-    "prompt": "A stakeholder asks the Product Owner for an exact delivery date three months into the future. Six Sprints of historical delivery data are available. What is the most Scrum-aligned response?",
+    "prompt": "A stakeholder asks for a forecast several months out. The team has useful historical throughput data, but the product environment is changing. What should the Product Owner do?",
     "options": [
-      "Commit to the date based on average velocity.",
-      "Refuse to provide any forecast because Scrum does not permit forecasting.",
-      "Use empirical evidence to create a forecast and update it as more information becomes available.",
-      "Lock the Product Backlog so the forecast cannot change."
+      "Use the evidence to provide a forecast or range and make the uncertainty explicit.",
+      "Convert the historical average into a guaranteed delivery date.",
+      "Avoid all forecasting because Scrum forbids long-range planning.",
+      "Use only the most optimistic Sprint in the historical data."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Scrum supports forecasting based on empirical evidence. A forecast should be updated as more information becomes available and is not a guaranteed commitment.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 8,
-    "edited": false
+    "explanation": "Empirical forecasting uses evidence while acknowledging uncertainty. A forecast is not a promise.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 106,
+    "edited": true
   },
   {
     "id": 107,
-    "prompt": "The Developers identify significant security work that customers will never directly see. What should happen?",
+    "prompt": "Developers identify a significant security weakness that users may never see directly but that creates product risk. How should the work be treated?",
     "options": [
-      "It cannot belong in the Product Backlog because it is not a user-facing feature.",
-      "It may belong in the Product Backlog if it represents work needed to improve the product.",
-      "It belongs only in the Sprint Backlog.",
-      "The Scrum Master maintains a separate technical backlog."
+      "Consider it as product work and make it transparent in the Product Backlog when appropriate.",
+      "Exclude it because Product Backlog items must be customer-visible features.",
+      "Hide it in a separate technical backlog that the Product Owner never sees.",
+      "Wait for a hardening Sprint after the feature roadmap is finished."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Product Backlog work is not limited to customer-visible features. Security, architecture, defects, documentation, and other necessary product work may belong there.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 9,
-    "edited": false
+    "explanation": "The Product Backlog can contain any work needed to improve the product, including security, technical, operational, and quality work.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 107,
+    "edited": true
   },
   {
     "id": 108,
-    "prompt": "When is it appropriate for a Product Owner to participate in the Daily Scrum as a Developer?",
+    "prompt": "When would it be appropriate for the Product Owner to participate in the Daily Scrum in the same way as a Developer?",
     "options": [
-      "Whenever the Product Owner wants a status update.",
-      "Whenever the Product Owner wants to change priorities.",
-      "If the Product Owner is actively working on Sprint Backlog items as a Developer.",
-      "Product Owners may never attend the Daily Scrum."
+      "When the Product Owner is actively working on Sprint Backlog items as a Developer.",
+      "Whenever the Product Owner wants a status report.",
+      "Every day because the Product Owner owns the Sprint Backlog.",
+      "Only when the Scrum Master is absent."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "The Daily Scrum is for Developers. If the Product Owner or Scrum Master is actively working on Sprint Backlog items, they participate as Developers.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 10,
-    "edited": false
+    "explanation": "If the Product Owner is working on Sprint Backlog items, they participate in the Daily Scrum as a Developer.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 108,
+    "edited": true
   },
   {
     "id": 109,
-    "prompt": "During the Sprint Retrospective, the Scrum Team identifies an important process improvement that may temporarily slow feature delivery but significantly improve quality. What is the best response?",
+    "prompt": "The Scrum Team identifies a quality improvement that may slow feature output briefly but is expected to reduce defects and rework. What is the best way to view it?",
     "options": [
-      "Ignore it because velocity must remain stable.",
-      "Wait until the product is finished before making process changes.",
-      "Address the improvement as soon as practical, potentially including it in the next Sprint Backlog.",
-      "Ask management for permission before implementing it."
+      "Consider the improvement based on its expected effect on quality, effectiveness, and long-term value rather than rejecting it solely because short-term output may dip.",
+      "Reject it because velocity must never decrease.",
+      "Implement it only if stakeholders unanimously approve.",
+      "Move it to a separate improvement team outside Scrum."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Scrum favors continuous improvement. The most impactful improvements should be addressed as soon as possible and may be added to the next Sprint Backlog.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 11,
-    "edited": false
+    "explanation": "The Retrospective is about increasing quality and effectiveness. Short-term output is not the only consideration when improving the way the Scrum Team works.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 109,
+    "edited": true
   },
   {
     "id": 110,
-    "prompt": "Which statement about Product Backlog refinement is most accurate?",
+    "prompt": "Which statement most accurately describes Product Backlog refinement?",
     "options": [
-      "Scrum requires a two-hour refinement meeting every Sprint.",
-      "Scrum requires refinement to consume exactly 10% of Developers' capacity.",
-      "Refinement is an ongoing activity; Scrum does not prescribe a specific refinement event or percentage.",
-      "Only the Product Owner participates in refinement."
+      "It is ongoing work to break down and further define Product Backlog items as needed.",
+      "It is a mandatory Scrum event with a fixed timebox.",
+      "It is performed only by the Product Owner.",
+      "It must happen after the Sprint Review and before Sprint Planning."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Product Backlog refinement is ongoing. The current Scrum Guide prescribes neither a separate refinement event nor a fixed percentage of capacity.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 12,
-    "edited": false
+    "explanation": "Refinement is ongoing activity, not a formal Scrum event, and is commonly collaborative.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 110,
+    "edited": true
   },
   {
     "id": 111,
-    "prompt": "A committee of important stakeholders strongly disagrees with the order of several Product Backlog items. Who ultimately remains accountable for the ordering?",
+    "prompt": "Several influential stakeholders want different Product Backlog items moved to the top. Who remains accountable for deciding the order?",
     "options": [
-      "A majority vote of stakeholders.",
       "The Product Owner.",
-      "The Developers.",
-      "The Scrum Master."
+      "The Scrum Master.",
+      "The stakeholder majority.",
+      "The Developers."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Stakeholders may influence and persuade, but the Product Owner remains accountable for Product Backlog ordering.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 13,
-    "edited": false
+    "explanation": "The Product Owner considers stakeholder input but remains accountable for Product Backlog ordering.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 111,
+    "edited": true
   },
   {
     "id": 112,
-    "prompt": "While implementing a Product Backlog item, Developers discover additional work necessary to achieve the Sprint Goal. What should they do?",
+    "prompt": "While building a selected item, Developers discover additional technical work required to meet the Sprint Goal and Definition of Done. What should they do?",
     "options": [
-      "Ignore the work because the Sprint Backlog was finalized during Sprint Planning.",
-      "Update the Sprint Backlog as more is learned.",
-      "Wait until the Sprint Review.",
-      "Ask the Product Owner to update the Sprint Backlog for them."
+      "Adapt the Sprint Backlog as needed and collaborate with the Product Owner when the discovery affects scope.",
+      "Ignore the work because it was not listed during Sprint Planning.",
+      "Wait for the Scrum Master to add the tasks.",
+      "Automatically cancel the Sprint."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "The Sprint Backlog is an emergent plan by and for the Developers. It is updated throughout the Sprint as more is learned.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 14,
-    "edited": false
+    "explanation": "The Sprint Backlog is adapted throughout the Sprint as more is learned. Developers manage that plan and collaborate with the Product Owner about scope as needed.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 112,
+    "edited": true
   },
   {
     "id": 113,
-    "prompt": "Which two would generally provide stronger evidence that a product is creating value?",
+    "prompt": "Which two signals would usually be stronger evidence of product value than internal delivery activity? Choose two.",
     "options": [
-      "Increased customer retention.",
-      "Increased story points completed.",
-      "Improvement in a customer outcome the product was intended to influence.",
-      "More Product Backlog items completed.",
-      "Higher utilization of Developers."
+      "Customers are achieving the intended outcome more often.",
+      "Users continue adopting and using the capability after release.",
+      "The team's story-point total increased.",
+      "Developers logged more productive hours."
     ],
     "correct": [
       0,
-      2
+      1
     ],
     "multi": true,
-    "explanation": "Customer retention and meaningful customer outcomes provide evidence of value. Story points, completed items, and utilization measure output or activity rather than customer value.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 15,
-    "edited": false
+    "explanation": "Outcome and usage evidence is more directly connected to customer or product value than internal activity measures such as story points or hours.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 113,
+    "edited": true
   },
   {
     "id": 114,
-    "prompt": "A team completes coding during the Sprint but plans to perform testing during the following Sprint. Their Definition of Done includes testing. How should the work be viewed at the end of the current Sprint?",
+    "prompt": "At Sprint end, implementation is complete but required testing in the Definition of Done has not been performed. How should the item be treated?",
     "options": [
-      "Done because development is finished.",
-      "Partially Done and included in the Increment.",
-      "Not Done because it does not meet the Definition of Done.",
-      "Done if the Product Owner accepts it."
+      "Not Done; it cannot be counted as part of the Done Increment yet.",
+      "Done because coding is complete.",
+      "Done if the Product Owner accepts the risk.",
+      "Done if testing is planned for the next Sprint."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "If work does not satisfy the Definition of Done, it is not Done and cannot be treated as part of the Done Increment.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 16,
-    "edited": false
+    "explanation": "If any requirement of the Definition of Done is unmet, the work is not Done and cannot be part of the Done Increment.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 114,
+    "edited": true
   },
   {
     "id": 115,
-    "prompt": "Which Scrum commitment is associated with the Product Backlog?",
+    "prompt": "Which commitment provides focus for the Product Backlog?",
     "options": [
-      "Sprint Goal.",
-      "Definition of Done.",
-      "Product Goal.",
-      "Release Goal."
+      "The Product Goal.",
+      "The Sprint Goal.",
+      "The Definition of Done.",
+      "The release plan."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "The Product Goal is the commitment for the Product Backlog. The Sprint Goal is the commitment for the Sprint Backlog, and the Definition of Done is the commitment for the Increment.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 17,
-    "edited": false
+    "explanation": "The Product Goal is the commitment for the Product Backlog.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 115,
+    "edited": true
   },
   {
     "id": 116,
-    "prompt": "A Product Backlog item satisfies the Definition of Done, but the Product Owner decides not to release the functionality yet. Which statement is correct?",
+    "prompt": "A capability meets the Definition of Done, but the Product Owner decides that releasing it today would not be valuable. What is true?",
     "options": [
-      "It cannot be part of an Increment until released.",
-      "It may still be part of a usable Increment even though it has not been released.",
-      "The Developers must release everything that meets the Definition of Done.",
-      "The Sprint must continue until the feature is released."
+      "It may remain unreleased while still being part of a Done Increment.",
+      "It is not Done until customers receive it.",
+      "The Sprint must stay open until release occurs.",
+      "The Scrum Master decides whether it can remain unreleased."
     ],
     "correct": [
-      1
+      0
     ],
     "multi": false,
-    "explanation": "Done and released are not the same thing. A Done Increment can exist without being immediately released.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 18,
-    "edited": false
+    "explanation": "Done and released are not the same thing. A Done Increment may be released whenever it makes sense.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 116,
+    "edited": true
   },
   {
     "id": 117,
-    "prompt": "Which two are examples of how a Scrum Master may serve the Product Owner?",
+    "prompt": "Which two actions are examples of a Scrum Master helping a Product Owner become more effective? Choose two.",
     "options": [
-      "Ordering the Product Backlog for the Product Owner.",
-      "Helping establish techniques for effective Product Goal definition and Product Backlog management.",
-      "Making product-value decisions when the Product Owner is unavailable.",
-      "Helping the Scrum Team understand empirical product planning.",
-      "Approving stakeholder requests before they reach the Product Owner."
+      "Coach techniques for Product Goal definition and Product Backlog management.",
+      "Facilitate helpful stakeholder collaboration when needed.",
+      "Take over ordering the Product Backlog when stakeholders disagree.",
+      "Approve Product Owner decisions before they are communicated."
     ],
     "correct": [
-      1,
-      3
+      0,
+      1
     ],
     "multi": true,
-    "explanation": "The Scrum Master helps the Product Owner with effective product-management techniques and empirical planning, but does not take over Product Owner accountability.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 19,
-    "edited": false
+    "explanation": "The Scrum Master serves the Product Owner through coaching, facilitation, and helping establish effective techniques, not by taking over Product Owner accountability.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 117,
+    "edited": true
   },
   {
     "id": 118,
-    "prompt": "An organization has separate database, API, and user-interface teams working on one product, and nearly every feature requires handoffs among all three. What improvement best aligns with Scrum?",
+    "prompt": "A product organization has separate specialist groups for data, services, and interface work. Almost every customer outcome requires waiting for handoffs across all three groups. What change would best support Scrum?",
     "options": [
-      "Increase documentation between the teams.",
-      "Assign one Product Owner to each technical layer.",
-      "Move toward cross-functional teams capable of creating valuable end-to-end Increments.",
-      "Create separate Product Backlogs for database, API, and user-interface work."
+      "Form cross-functional Scrum Teams with enough combined capability to create integrated value with fewer external handoffs.",
+      "Keep the specialist groups and add more handoff meetings.",
+      "Create a separate integration Sprint after every three feature Sprints.",
+      "Have the Product Owner assign work directly to each specialist group."
     ],
     "correct": [
-      2
+      0
     ],
     "multi": false,
-    "explanation": "Scrum favors cross-functional teams capable of creating valuable Increments with fewer handoffs and dependencies.",
-    "source": "Hard PSPO I scenario set",
-    "source_num": 20,
-    "edited": false
+    "explanation": "Cross-functional Scrum Teams reduce dependencies and handoffs by containing the skills needed to create a valuable, integrated Increment.",
+    "source": "Original practice question based on public Scrum concepts",
+    "source_num": 118,
+    "edited": true
   }
 ]
